@@ -11,8 +11,11 @@ public class control : MonoBehaviour
     public groundCheck feet;
     public Rigidbody2D thisRigidbody;
     public int jumpcounter = 0;
-    public float jumpHeight = 1.5f;
+    public float jumpHeight = 5f;
     public bool jumped;
+    private float jumpGravity = 7;
+    private float fallGravity = 5f;
+    public bool releasedJump = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,20 +25,29 @@ public class control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && (feet.grounded) && !jumped)
+        if (!colored)
         {
-            jumping = true;
-            transform.Translate(0, 0, 0);
-        }
-
-        if (jumping)
-        {
-            if (Input.GetKeyUp(KeyCode.Space) || jumpcounter > jumpHeight + 3)
+            if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump)
             {
-                thisRigidbody.velocity = new Vector2(0, 0);
-                jumpcounter = 0;
-                jumping = false;
-                jumped = false;
+                jumping = true;
+                transform.Translate(0, 0, 0);
+                releasedJump = false;
+            }
+
+            if (jumping)
+            {
+                if (Input.GetKeyUp(KeyCode.Space) || jumpcounter > jumpHeight + 3)
+                {
+                    thisRigidbody.gravityScale = fallGravity;
+                    thisRigidbody.velocity = new Vector2(0, 0);
+                    jumpcounter = 0;
+                    jumping = false;
+                }
+
+            }
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                releasedJump = true;
             }
         }
     }
@@ -44,14 +56,9 @@ public class control : MonoBehaviour
     {
         //jump
 
-
         if (jumping)
         {
-
-            if (!feet.grounded)
-            {
-                jumped = true;
-            }
+            thisRigidbody.gravityScale = jumpGravity;
 
             //jumping animation
             jumpcounter += 1;
@@ -64,7 +71,10 @@ public class control : MonoBehaviour
 
 
             minusIdx = 80;
-            thisRigidbody.AddForce(Vector2.up * (400 - jumpcounter * minusIdx) * Time.deltaTime, ForceMode2D.Impulse);
+            if ((500 - jumpcounter * minusIdx)*Time.deltaTime >= 0)
+            {
+                thisRigidbody.AddForce(Vector2.up * (500 - jumpcounter * minusIdx) * Time.deltaTime, ForceMode2D.Impulse);
+            }
 
 
 
@@ -77,18 +87,20 @@ public class control : MonoBehaviour
         }
         else
         {
+            thisRigidbody.gravityScale = fallGravity;
             //falling animation
             transform.Translate(0, 0, 0);
             jumpcounter = 0;
         }
+
         //moving
         if (colored)
         {
-            movingSpd = 3;
+            movingSpd = 2;
         }
         else
         {
-            movingSpd = 8;
+            movingSpd = 5;
         }
         if (Input.GetKey(KeyCode.A))
         {
