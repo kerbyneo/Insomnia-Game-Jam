@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: f86624e5ac404584aae7e3cd1b1c45fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6528317359470087883
+    second: Red_Idle_Flat_0
+  - first:
+      213: -7448272591111048669
+    second: Red_Idle_Flat_1
+  - first:
+      213: 5333577222108828367
+    second: Red_Idle_Flat_2
+  - first:
+      213: 815326835295452995
+    second: Red_Idle_Flat_3
+  - first:
+      213: 7780695863050366702
+    second: Red_Idle_Flat_4
+  - first:
+      213: -174138285609168031
+    second: Red_Idle_Flat_5
+  - first:
+      213: 1159759621865245021
+    second: Red_Idle_Flat_6
+  - first:
+      213: 7643627819913595683
+    second: Red_Idle_Flat_7
+  - first:
+      213: 2420159386571363746
+    second: Red_Idle_Flat_8
+  - first:
+      213: 9190518850504491430
+    second: Red_Idle_Flat_9
+  - first:
+      213: -7322112778965394167
+    second: Red_Idle_Flat_10
+  - first:
+      213: -3291409174262525624
+    second: Red_Idle_Flat_11
+  - first:
+      213: 1206168368616895234
+    second: Red_Idle_Flat_12
+  - first:
+      213: -4969442998950332163
+    second: Red_Idle_Flat_13
+  - first:
+      213: -1557386523159336407
+    second: Red_Idle_Flat_14
+  - first:
+      213: 7307863662930523010
+    second: Red_Idle_Flat_15
+  - first:
+      213: -8196920504401965121
+    second: Red_Idle_Flat_16
+  - first:
+      213: 527051598020426587
+    second: Red_Idle_Flat_17
+  - first:
+      213: 8128394088430657358
+    second: Red_Idle_Flat_18
+  - first:
+      213: 8285271069028236792
+    second: Red_Idle_Flat_19
+  - first:
+      213: 8454619165828265602
+    second: Red_Idle_Flat_20
+  - first:
+      213: 430691118236773240
+    second: Red_Idle_Flat_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Idle_Flat_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 147
+        width: 203
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce0b38cc0e399a50800000000000000
+      internalID: 6528317359470087883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 142
+        width: 213
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223c808a8b62a890800000000000000
+      internalID: -7448272591111048669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 142
+        width: 202
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc259e9993ca40a40800000000000000
+      internalID: 5333577222108828367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_3
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 142
+        width: 212
+        height: 616
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ff0a9df6f905b00800000000000000
+      internalID: 815326835295452995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_4
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 495
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee77ed9a59afb60800000000000000
+      internalID: 7780695863050366702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_5
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 142
+        width: 202
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635870e626559df0800000000000000
+      internalID: -174138285609168031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_6
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 142
+        width: 213
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d598e1e3b3b481010800000000000000
+      internalID: 1159759621865245021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 406
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b4e39210f931a60800000000000000
+      internalID: 7643627819913595683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_8
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 426
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d968b322269120800000000000000
+      internalID: 2420159386571363746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_9
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 410
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a10ad973384b8f70800000000000000
+      internalID: 9190518850504491430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_10
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 402
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5b64c831a26a90800000000000000
+      internalID: -7322112778965394167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_11
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 406
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841de9d6bc09252d0800000000000000
+      internalID: -3291409174262525624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_12
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 410
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203f8be9dbb2db010800000000000000
+      internalID: 1206168368616895234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_13
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 61
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df87304fbedf80bb0800000000000000
+      internalID: -4969442998950332163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_14
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 61
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a6b15653d036ae0800000000000000
+      internalID: -1557386523159336407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 54
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28375ff584fba6560800000000000000
+      internalID: 7307863662930523010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_16
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 54
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf410bfa30be3e80800000000000000
+      internalID: -8196920504401965121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 22
+        width: 92
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b3f4ec2a6705700800000000000000
+      internalID: 527051598020426587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_18
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 7
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f5b4b7b5bddc070800000000000000
+      internalID: 8128394088430657358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_19
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdbf39d3223bf270800000000000000
+      internalID: 8285271069028236792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_20
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286376a3657d45570800000000000000
+      internalID: 8454619165828265602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Idle_Flat_21
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b2b664a4f1af500800000000000000
+      internalID: 430691118236773240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

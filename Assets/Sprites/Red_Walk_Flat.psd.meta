@@ -1,0 +1,5158 @@
+fileFormatVersion: 2
+guid: 3f4da21029b53184297277a4876a3830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1179458347180576919
+    second: Red_Walk_Flat_0
+  - first:
+      213: -9130003926852690443
+    second: Red_Walk_Flat_1
+  - first:
+      213: -857001830781532956
+    second: Red_Walk_Flat_2
+  - first:
+      213: 7560393138075232281
+    second: Red_Walk_Flat_3
+  - first:
+      213: -3955497162072145498
+    second: Red_Walk_Flat_4
+  - first:
+      213: -214478808841624055
+    second: Red_Walk_Flat_5
+  - first:
+      213: 2517199862037971033
+    second: Red_Walk_Flat_6
+  - first:
+      213: 1421272626086068803
+    second: Red_Walk_Flat_7
+  - first:
+      213: -3469490767861852931
+    second: Red_Walk_Flat_8
+  - first:
+      213: 381215293618729936
+    second: Red_Walk_Flat_9
+  - first:
+      213: -2056351083517943549
+    second: Red_Walk_Flat_10
+  - first:
+      213: -2886544231504634928
+    second: Red_Walk_Flat_11
+  - first:
+      213: -8059208989532378013
+    second: Red_Walk_Flat_12
+  - first:
+      213: -3531799990911009517
+    second: Red_Walk_Flat_13
+  - first:
+      213: -6040610789840687124
+    second: Red_Walk_Flat_14
+  - first:
+      213: -2000091310491849359
+    second: Red_Walk_Flat_15
+  - first:
+      213: -1753207099104562768
+    second: Red_Walk_Flat_16
+  - first:
+      213: -1451373020601480582
+    second: Red_Walk_Flat_17
+  - first:
+      213: -7948929870941538347
+    second: Red_Walk_Flat_18
+  - first:
+      213: -197368449871887080
+    second: Red_Walk_Flat_19
+  - first:
+      213: 253431975077925725
+    second: Red_Walk_Flat_20
+  - first:
+      213: -4989744925784939603
+    second: Red_Walk_Flat_21
+  - first:
+      213: 4305702962103506648
+    second: Red_Walk_Flat_22
+  - first:
+      213: -610810083517744477
+    second: Red_Walk_Flat_23
+  - first:
+      213: -1976875731804712732
+    second: Red_Walk_Flat_24
+  - first:
+      213: -9077107970170257233
+    second: Red_Walk_Flat_25
+  - first:
+      213: -3991723546514450491
+    second: Red_Walk_Flat_26
+  - first:
+      213: 6162426690535991196
+    second: Red_Walk_Flat_27
+  - first:
+      213: 321147670323186975
+    second: Red_Walk_Flat_28
+  - first:
+      213: -6066417679593052001
+    second: Red_Walk_Flat_29
+  - first:
+      213: -449856922267429516
+    second: Red_Walk_Flat_30
+  - first:
+      213: -5215046094237073726
+    second: Red_Walk_Flat_31
+  - first:
+      213: -559523600019487241
+    second: Red_Walk_Flat_32
+  - first:
+      213: -6404569048986366480
+    second: Red_Walk_Flat_33
+  - first:
+      213: 334253230712033558
+    second: Red_Walk_Flat_34
+  - first:
+      213: 5280287375613852196
+    second: Red_Walk_Flat_35
+  - first:
+      213: -5781226212485279508
+    second: Red_Walk_Flat_36
+  - first:
+      213: -2221514054745587035
+    second: Red_Walk_Flat_37
+  - first:
+      213: 4238238973802692964
+    second: Red_Walk_Flat_38
+  - first:
+      213: -4364196831800012474
+    second: Red_Walk_Flat_39
+  - first:
+      213: -1938428257864408079
+    second: Red_Walk_Flat_40
+  - first:
+      213: -5214364468532424793
+    second: Red_Walk_Flat_41
+  - first:
+      213: -8057154125781619598
+    second: Red_Walk_Flat_42
+  - first:
+      213: -7326667462363642339
+    second: Red_Walk_Flat_43
+  - first:
+      213: -3368726456305806449
+    second: Red_Walk_Flat_44
+  - first:
+      213: 8880020120575331679
+    second: Red_Walk_Flat_45
+  - first:
+      213: 4922078936064546403
+    second: Red_Walk_Flat_46
+  - first:
+      213: 2717568992715025897
+    second: Red_Walk_Flat_47
+  - first:
+      213: -3299816677524240404
+    second: Red_Walk_Flat_48
+  - first:
+      213: 5236454751325647091
+    second: Red_Walk_Flat_49
+  - first:
+      213: 7703784278674272384
+    second: Red_Walk_Flat_50
+  - first:
+      213: -8300951789082077783
+    second: Red_Walk_Flat_51
+  - first:
+      213: 6210483606821100832
+    second: Red_Walk_Flat_52
+  - first:
+      213: 5378373698244205560
+    second: Red_Walk_Flat_53
+  - first:
+      213: 3096183633772620494
+    second: Red_Walk_Flat_54
+  - first:
+      213: -1052659138357138088
+    second: Red_Walk_Flat_55
+  - first:
+      213: -6612230329972701674
+    second: Red_Walk_Flat_56
+  - first:
+      213: 9207422645986151357
+    second: Red_Walk_Flat_57
+  - first:
+      213: -3723285540283553720
+    second: Red_Walk_Flat_58
+  - first:
+      213: -5789156519135337087
+    second: Red_Walk_Flat_59
+  - first:
+      213: -120481264301296565
+    second: Red_Walk_Flat_60
+  - first:
+      213: 7543847656669124614
+    second: Red_Walk_Flat_61
+  - first:
+      213: 5339070340473478227
+    second: Red_Walk_Flat_62
+  - first:
+      213: 9019008851366760437
+    second: Red_Walk_Flat_63
+  - first:
+      213: -2021737752133444013
+    second: Red_Walk_Flat_64
+  - first:
+      213: -1229487850568236868
+    second: Red_Walk_Flat_65
+  - first:
+      213: -4316030088047978531
+    second: Red_Walk_Flat_66
+  - first:
+      213: 63739262170166148
+    second: Red_Walk_Flat_67
+  - first:
+      213: 4290107038075695145
+    second: Red_Walk_Flat_68
+  - first:
+      213: -8533209760705646637
+    second: Red_Walk_Flat_69
+  - first:
+      213: 2365943386791573753
+    second: Red_Walk_Flat_70
+  - first:
+      213: -1657858714354265711
+    second: Red_Walk_Flat_71
+  - first:
+      213: 1337719687284127880
+    second: Red_Walk_Flat_72
+  - first:
+      213: -3090046541833546785
+    second: Red_Walk_Flat_73
+  - first:
+      213: 316928197004235141
+    second: Red_Walk_Flat_74
+  - first:
+      213: 8957119547158872872
+    second: Red_Walk_Flat_75
+  - first:
+      213: -1116180587311536231
+    second: Red_Walk_Flat_76
+  - first:
+      213: -2213953000659626950
+    second: Red_Walk_Flat_77
+  - first:
+      213: 4187228798605825982
+    second: Red_Walk_Flat_78
+  - first:
+      213: 7326962570820268323
+    second: Red_Walk_Flat_79
+  - first:
+      213: 2544287719283614667
+    second: Red_Walk_Flat_80
+  - first:
+      213: -4796820973664232759
+    second: Red_Walk_Flat_81
+  - first:
+      213: 6740837812725775972
+    second: Red_Walk_Flat_82
+  - first:
+      213: -1871165108154448259
+    second: Red_Walk_Flat_83
+  - first:
+      213: 4720218573813935295
+    second: Red_Walk_Flat_84
+  - first:
+      213: 7275300240636285121
+    second: Red_Walk_Flat_85
+  - first:
+      213: 5616239633817777970
+    second: Red_Walk_Flat_86
+  - first:
+      213: -6446829891813763491
+    second: Red_Walk_Flat_87
+  - first:
+      213: -1793071220101964829
+    second: Red_Walk_Flat_88
+  - first:
+      213: -7023450789157883446
+    second: Red_Walk_Flat_89
+  - first:
+      213: -5182366305755802423
+    second: Red_Walk_Flat_90
+  - first:
+      213: 3606444704013249420
+    second: Red_Walk_Flat_91
+  - first:
+      213: 6534997553767944688
+    second: Red_Walk_Flat_92
+  - first:
+      213: -286531389383878010
+    second: Red_Walk_Flat_93
+  - first:
+      213: 7702441416669255193
+    second: Red_Walk_Flat_94
+  - first:
+      213: -908424898800205840
+    second: Red_Walk_Flat_95
+  - first:
+      213: 8649077965631039662
+    second: Red_Walk_Flat_96
+  - first:
+      213: 3848583118122834541
+    second: Red_Walk_Flat_97
+  - first:
+      213: -266774694967554290
+    second: Red_Walk_Flat_98
+  - first:
+      213: -4245374855087612875
+    second: Red_Walk_Flat_99
+  - first:
+      213: 3694030634961248045
+    second: Red_Walk_Flat_100
+  - first:
+      213: 4561740656193941128
+    second: Red_Walk_Flat_101
+  - first:
+      213: 4520011807511612681
+    second: Red_Walk_Flat_102
+  - first:
+      213: -2529756500560220888
+    second: Red_Walk_Flat_103
+  - first:
+      213: -6359379833978153264
+    second: Red_Walk_Flat_104
+  - first:
+      213: 6314472761390929794
+    second: Red_Walk_Flat_105
+  - first:
+      213: 7889330544718986301
+    second: Red_Walk_Flat_106
+  - first:
+      213: -912187295492716106
+    second: Red_Walk_Flat_107
+  - first:
+      213: 6389769815147240448
+    second: Red_Walk_Flat_108
+  - first:
+      213: 6100348006622925195
+    second: Red_Walk_Flat_109
+  - first:
+      213: 1943206861240510622
+    second: Red_Walk_Flat_110
+  - first:
+      213: -553432693026875503
+    second: Red_Walk_Flat_111
+  - first:
+      213: 4429903621518752414
+    second: Red_Walk_Flat_112
+  - first:
+      213: 2522892293608861548
+    second: Red_Walk_Flat_113
+  - first:
+      213: 4195484695115679246
+    second: Red_Walk_Flat_114
+  - first:
+      213: 6519458274723225050
+    second: Red_Walk_Flat_115
+  - first:
+      213: -1409511526099347202
+    second: Red_Walk_Flat_116
+  - first:
+      213: -1161630162670952324
+    second: Red_Walk_Flat_117
+  - first:
+      213: -3053278491063733841
+    second: Red_Walk_Flat_118
+  - first:
+      213: 7578332106792049664
+    second: Red_Walk_Flat_119
+  - first:
+      213: -2396946408314843852
+    second: Red_Walk_Flat_120
+  - first:
+      213: -8826485930248737687
+    second: Red_Walk_Flat_121
+  - first:
+      213: -44272292650510519
+    second: Red_Walk_Flat_122
+  - first:
+      213: 629979605811239377
+    second: Red_Walk_Flat_123
+  - first:
+      213: -947712906139249310
+    second: Red_Walk_Flat_124
+  - first:
+      213: -3216446927750354699
+    second: Red_Walk_Flat_125
+  - first:
+      213: -5648061928581849168
+    second: Red_Walk_Flat_126
+  - first:
+      213: 3497404270612748951
+    second: Red_Walk_Flat_127
+  - first:
+      213: 4402099015762537548
+    second: Red_Walk_Flat_128
+  - first:
+      213: 57546583701523163
+    second: Red_Walk_Flat_129
+  - first:
+      213: 4340705698604739699
+    second: Red_Walk_Flat_130
+  - first:
+      213: -4824304421036926380
+    second: Red_Walk_Flat_131
+  - first:
+      213: -6949184524669692199
+    second: Red_Walk_Flat_132
+  - first:
+      213: 122280163034003209
+    second: Red_Walk_Flat_133
+  - first:
+      213: -742520985092895501
+    second: Red_Walk_Flat_134
+  - first:
+      213: -9127664935362592258
+    second: Red_Walk_Flat_135
+  - first:
+      213: -379300707871110263
+    second: Red_Walk_Flat_136
+  - first:
+      213: 8671365342826622182
+    second: Red_Walk_Flat_137
+  - first:
+      213: -7920279908620492748
+    second: Red_Walk_Flat_138
+  - first:
+      213: 5322868629866982387
+    second: Red_Walk_Flat_139
+  - first:
+      213: -6225571004896299811
+    second: Red_Walk_Flat_140
+  - first:
+      213: -4957981894978307585
+    second: Red_Walk_Flat_141
+  - first:
+      213: 6893216235742922716
+    second: Red_Walk_Flat_142
+  - first:
+      213: -4306891583114248646
+    second: Red_Walk_Flat_143
+  - first:
+      213: -8807675432140121141
+    second: Red_Walk_Flat_144
+  - first:
+      213: -5738217780684005237
+    second: Red_Walk_Flat_145
+  - first:
+      213: 6667626824474834611
+    second: Red_Walk_Flat_146
+  - first:
+      213: 724496209399006121
+    second: Red_Walk_Flat_147
+  - first:
+      213: -1206553290134224619
+    second: Red_Walk_Flat_148
+  - first:
+      213: 1562625641141799596
+    second: Red_Walk_Flat_149
+  - first:
+      213: -932038822995996123
+    second: Red_Walk_Flat_150
+  - first:
+      213: 4862724699246065294
+    second: Red_Walk_Flat_151
+  - first:
+      213: 5256230552493711151
+    second: Red_Walk_Flat_152
+  - first:
+      213: 3326782508629432865
+    second: Red_Walk_Flat_153
+  - first:
+      213: 9211457628942177598
+    second: Red_Walk_Flat_154
+  - first:
+      213: -5383314080574841802
+    second: Red_Walk_Flat_155
+  - first:
+      213: 3289650010927260875
+    second: Red_Walk_Flat_156
+  - first:
+      213: 8067174011453501812
+    second: Red_Walk_Flat_157
+  - first:
+      213: 5384917291087228761
+    second: Red_Walk_Flat_158
+  - first:
+      213: 4973643618706870811
+    second: Red_Walk_Flat_159
+  - first:
+      213: -2172359501108275168
+    second: Red_Walk_Flat_160
+  - first:
+      213: -6187439881712079108
+    second: Red_Walk_Flat_161
+  - first:
+      213: 1049450219987191314
+    second: Red_Walk_Flat_162
+  - first:
+      213: -1390570818753646206
+    second: Red_Walk_Flat_163
+  - first:
+      213: -6508999934392681598
+    second: Red_Walk_Flat_164
+  - first:
+      213: -3292085405513886308
+    second: Red_Walk_Flat_165
+  - first:
+      213: -6156648495136036424
+    second: Red_Walk_Flat_166
+  - first:
+      213: -2528862559756400857
+    second: Red_Walk_Flat_167
+  - first:
+      213: 6025787030380640090
+    second: Red_Walk_Flat_168
+  - first:
+      213: 7350032292845466067
+    second: Red_Walk_Flat_169
+  - first:
+      213: 9141827980759904440
+    second: Red_Walk_Flat_170
+  - first:
+      213: -2112547973124140218
+    second: Red_Walk_Flat_171
+  - first:
+      213: 5278190478406299960
+    second: Red_Walk_Flat_172
+  - first:
+      213: 1801162485250670255
+    second: Red_Walk_Flat_173
+  - first:
+      213: 1677839987665292136
+    second: Red_Walk_Flat_174
+  - first:
+      213: 3131690991558889572
+    second: Red_Walk_Flat_175
+  - first:
+      213: -2962592775358556686
+    second: Red_Walk_Flat_176
+  - first:
+      213: -6704628795913401692
+    second: Red_Walk_Flat_177
+  - first:
+      213: -5202744049381507459
+    second: Red_Walk_Flat_178
+  - first:
+      213: 176903032248644283
+    second: Red_Walk_Flat_179
+  - first:
+      213: -143866726371773503
+    second: Red_Walk_Flat_180
+  - first:
+      213: -5765064764834932952
+    second: Red_Walk_Flat_181
+  - first:
+      213: -5986516827896348476
+    second: Red_Walk_Flat_182
+  - first:
+      213: 652342120286573535
+    second: Red_Walk_Flat_183
+  - first:
+      213: 34158163975083050
+    second: Red_Walk_Flat_184
+  - first:
+      213: 8110991016228023973
+    second: Red_Walk_Flat_185
+  - first:
+      213: 3644240868652637359
+    second: Red_Walk_Flat_186
+  - first:
+      213: -2748304416688697324
+    second: Red_Walk_Flat_187
+  - first:
+      213: 5474373380314322398
+    second: Red_Walk_Flat_188
+  - first:
+      213: 1961645387841928888
+    second: Red_Walk_Flat_189
+  - first:
+      213: -854792260346085065
+    second: Red_Walk_Flat_190
+  - first:
+      213: -7388744050813765402
+    second: Red_Walk_Flat_191
+  - first:
+      213: -7527378971046619572
+    second: Red_Walk_Flat_192
+  - first:
+      213: -6253515812772998162
+    second: Red_Walk_Flat_193
+  - first:
+      213: -8426878609387082390
+    second: Red_Walk_Flat_194
+  - first:
+      213: -5332964265016797276
+    second: Red_Walk_Flat_195
+  - first:
+      213: 5354355636351707742
+    second: Red_Walk_Flat_196
+  - first:
+      213: -3710585721415217043
+    second: Red_Walk_Flat_197
+  - first:
+      213: 8861820450932015799
+    second: Red_Walk_Flat_198
+  - first:
+      213: 5289163880037077989
+    second: Red_Walk_Flat_199
+  - first:
+      213: -5186702439829594999
+    second: Red_Walk_Flat_200
+  - first:
+      213: 640099175297799453
+    second: Red_Walk_Flat_201
+  - first:
+      213: -2627444882317718074
+    second: Red_Walk_Flat_202
+  - first:
+      213: 2345076958490546639
+    second: Red_Walk_Flat_203
+  - first:
+      213: 6970742003010008458
+    second: Red_Walk_Flat_204
+  - first:
+      213: 1843748432904253258
+    second: Red_Walk_Flat_205
+  - first:
+      213: 5215710294181008331
+    second: Red_Walk_Flat_206
+  - first:
+      213: -2079038158748871017
+    second: Red_Walk_Flat_207
+  - first:
+      213: 8095590423545145849
+    second: Red_Walk_Flat_208
+  - first:
+      213: 7606231701637665572
+    second: Red_Walk_Flat_209
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Walk_Flat_0
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 996
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79051132e174e5010800000000000000
+      internalID: 1179458347180576919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_1
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 996
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd16062dc5bb4180800000000000000
+      internalID: -9130003926852690443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_2
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 139
+        width: 309
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4486020615b14f0800000000000000
+      internalID: -857001830781532956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_3
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 995
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918664d9089ebe860800000000000000
+      internalID: 7560393138075232281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_4
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 996
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1cf98c9404b19c0800000000000000
+      internalID: -3955497162072145498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_5
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 996
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066523e8a4060df0800000000000000
+      internalID: -214478808841624055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_6
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 139
+        width: 233
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9508f6510f3eee220800000000000000
+      internalID: 2517199862037971033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_7
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 996
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c8d65cef59b310800000000000000
+      internalID: 1421272626086068803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_8
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 996
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4d81e5784e9dfc0800000000000000
+      internalID: -3469490767861852931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_9
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 996
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3371f2a495a4500800000000000000
+      internalID: 381215293618729936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_10
+      rect:
+        serializedVersion: 2
+        x: 4338
+        y: 996
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3016c65a59f5673e0800000000000000
+      internalID: -2056351083517943549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_11
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 760
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db96b4a05fe0f7d0800000000000000
+      internalID: -2886544231504634928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_12
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 748
+        width: 18
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ca940af10f72090800000000000000
+      internalID: -8059208989532378013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_13
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 742
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d750cde968cfec0800000000000000
+      internalID: -3531799990911009517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_14
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 766
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef672dbd707b2ca0800000000000000
+      internalID: -6040610789840687124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_15
+      rect:
+        serializedVersion: 2
+        x: 4155
+        y: 791
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17da9cfcc8f3e34e0800000000000000
+      internalID: -2000091310491849359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_16
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 779
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1fd28ae6b5ba7e0800000000000000
+      internalID: -1753207099104562768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 146
+        width: 209
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a867e6defabdbe0800000000000000
+      internalID: -1451373020601480582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_18
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 143
+        width: 234
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7b90ac56abfa190800000000000000
+      internalID: -7948929870941538347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 145
+        width: 334
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8154487c07ec24df0800000000000000
+      internalID: -197368449871887080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_20
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 142
+        width: 283
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53de31e90f548300800000000000000
+      internalID: 253431975077925725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_21
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 142
+        width: 268
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e7c24d6dd0cab0800000000000000
+      internalID: -4989744925784939603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_22
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 139
+        width: 181
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6d68c080ee0cb30800000000000000
+      internalID: 4305702962103506648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_23
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 145
+        width: 169
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aab2ba1777f587f0800000000000000
+      internalID: -610810083517744477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_24
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 142
+        width: 194
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e090b0fef9b094e0800000000000000
+      internalID: -1976875731804712732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_25
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 759
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0822ac462a70280800000000000000
+      internalID: -9077107970170257233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_26
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 716
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c79170659c8a98c0800000000000000
+      internalID: -3991723546514450491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_27
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 146
+        width: 143
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97a8c3dc66558550800000000000000
+      internalID: 6162426690535991196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_28
+      rect:
+        serializedVersion: 2
+        x: 4613
+        y: 137
+        width: 181
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dce0aca12f47400800000000000000
+      internalID: 321147670323186975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 733
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98e4bcf241cfcba0800000000000000
+      internalID: -6066417679593052001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 725
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475df7c3389c1c9f0800000000000000
+      internalID: -449856922267429516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 728
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cef5b1353f60a7b0800000000000000
+      internalID: -5215046094237073726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_32
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 728
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50461104c2c38f0800000000000000
+      internalID: -559523600019487241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_33
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 732
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdc4bff1666e17a0800000000000000
+      internalID: -6404569048986366480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_34
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 719
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6111e99da8183a400800000000000000
+      internalID: 334253230712033558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 707
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a71775469574940800000000000000
+      internalID: 5280287375613852196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_36
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 716
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce053a6d365f4cfa0800000000000000
+      internalID: -5781226212485279508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_37
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 698
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a20a5fbcb89b21e0800000000000000
+      internalID: -2221514054745587035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_38
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 704
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461c9ba34ef31da30800000000000000
+      internalID: 4238238973802692964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_39
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 681
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641dcae9a124f63c0800000000000000
+      internalID: -4364196831800012474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_40
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 698
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a96b05c15915e0800000000000000
+      internalID: -1938428257864408079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_41
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 701
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afc4bb842bd2a7b0800000000000000
+      internalID: -5214364468532424793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_42
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 693
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ca630e20d3f2090800000000000000
+      internalID: -8057154125781619598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_43
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 686
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d160766e2c2725a90800000000000000
+      internalID: -7326667462363642339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_44
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 687
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f839e62e221ef31d0800000000000000
+      internalID: -3368726456305806449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_45
+      rect:
+        serializedVersion: 2
+        x: 4147
+        y: 669
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dc635504b2c3b70800000000000000
+      internalID: 8880020120575331679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_46
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 669
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3665f8cc6bcbe4440800000000000000
+      internalID: 4922078936064546403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_47
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 660
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed256fb99eb6b520800000000000000
+      internalID: 2717568992715025897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_48
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 648
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce702480732b432d0800000000000000
+      internalID: -3299816677524240404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_49
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 618
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0fb273adf9ba840800000000000000
+      internalID: 5236454751325647091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_50
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 408
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0807e9c2cf659ea60800000000000000
+      internalID: 7703784278674272384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_51
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 405
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a59e1204581dcc80800000000000000
+      internalID: -8300951789082077783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_52
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 416
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d55f39fe1103650800000000000000
+      internalID: 6210483606821100832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb5629f162d3aa40800000000000000
+      internalID: 5378373698244205560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_54
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 408
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca25625c9ad7fa20800000000000000
+      internalID: 3096183633772620494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_55
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d67a447143461f0800000000000000
+      internalID: -1052659138357138088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_56
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 408
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616c9e84c83ac34a0800000000000000
+      internalID: -6612230329972701674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_57
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 387
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb44ee0d1657cf70800000000000000
+      internalID: 9207422645986151357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_58
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 383
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848ec06278b345cc0800000000000000
+      internalID: -3723285540283553720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_59
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 396
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1852dcf61d8c8afa0800000000000000
+      internalID: -5789156519135337087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_60
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 385
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b443b3fade6f35ef0800000000000000
+      internalID: -120481264301296565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_61
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 370
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6081d67897121b860800000000000000
+      internalID: 7543847656669124614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_62
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 399
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cdeb2ef20381a40800000000000000
+      internalID: 5339070340473478227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_63
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 384
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffc1dbf3c4f92d70800000000000000
+      internalID: 9019008851366760437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_64
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ed61fd93851f3e0800000000000000
+      internalID: -2021737752133444013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_65
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 384
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0c833605bffeee0800000000000000
+      internalID: -1229487850568236868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_66
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 384
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7900290816a14c0800000000000000
+      internalID: -4316030088047978531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_67
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 388
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f5ef658272e000800000000000000
+      internalID: 63739262170166148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_68
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 384
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b7e40f95898b30800000000000000
+      internalID: 4290107038075695145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_69
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 388
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df6e3bfee2f39980800000000000000
+      internalID: -8533209760705646637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_70
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 384
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8756899f485d020800000000000000
+      internalID: 2365943386791573753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_71
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 388
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d023784a1ef8e0800000000000000
+      internalID: -1657858714354265711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_72
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 382
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888fd91d7f8809210800000000000000
+      internalID: 1337719687284127880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_73
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 382
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3569eba03fd15d0800000000000000
+      internalID: -3090046541833546785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_74
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 387
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5811eb91484f56400800000000000000
+      internalID: 316928197004235141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_75
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 376
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823cc1375c41e4c70800000000000000
+      internalID: 8957119547158872872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_76
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 376
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997eb1c6ba78280f0800000000000000
+      internalID: -1116180587311536231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_77
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 376
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34d546d9757641e0800000000000000
+      internalID: -2213953000659626950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_78
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 376
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79f2e48660c1a30800000000000000
+      internalID: 4187228798605825982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_79
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 376
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321335463a99ea560800000000000000
+      internalID: 7326962570820268323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_80
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 381
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3e94253302f4320800000000000000
+      internalID: 2544287719283614667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_81
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 376
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca99953db44e6db0800000000000000
+      internalID: -4796820973664232759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_82
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 367
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e7a04b6444c8d50800000000000000
+      internalID: 6740837812725775972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_83
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 361
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76495c7f394806e0800000000000000
+      internalID: -1871165108154448259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_84
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 367
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc616ab8c5918140800000000000000
+      internalID: 4720218573813935295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_85
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 361
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0907dc50f07f460800000000000000
+      internalID: 7275300240636285121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_86
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 367
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237bd2bd034e0fd40800000000000000
+      internalID: 5616239633817777970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_87
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 361
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d561213ce524886a0800000000000000
+      internalID: -6446829891813763491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_88
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 367
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb98d4b93bbd17e0800000000000000
+      internalID: -1793071220101964829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_89
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 361
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1bec618b0b78e90800000000000000
+      internalID: -7023450789157883446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_90
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 364
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4d8716d498418b0800000000000000
+      internalID: -5182366305755802423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_91
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 370
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b6cccb95aac0230800000000000000
+      internalID: 3606444704013249420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_92
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 363
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f19268b6a9f0ba50800000000000000
+      internalID: 6534997553767944688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_93
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 369
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a56ce2839060cf0800000000000000
+      internalID: -286531389383878010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_94
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 373
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916d3dfb8a194ea60800000000000000
+      internalID: 7702441416669255193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_95
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 371
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffb4e91e50a463f0800000000000000
+      internalID: -908424898800205840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_96
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 361
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a810c592b70870800000000000000
+      internalID: 8649077965631039662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_97
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 366
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad64c84f9e86530800000000000000
+      internalID: 3848583118122834541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_98
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 370
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f456f04d93c4cf0800000000000000
+      internalID: -266774694967554290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_99
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 367
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c9020ff066515c0800000000000000
+      internalID: -4245374855087612875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_100
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f964a6a45d34330800000000000000
+      internalID: 3694030634961248045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_101
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 358
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea5e925fe8e4f30800000000000000
+      internalID: 4561740656193941128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_102
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 352
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0d477ace4abe30800000000000000
+      internalID: 4520011807511612681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_103
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 358
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d6fdfaddf74ecd0800000000000000
+      internalID: -2529756500560220888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_104
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 355
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d613f30cb1feb7a0800000000000000
+      internalID: -6359379833978153264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_105
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 352
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287169e558381a750800000000000000
+      internalID: 6314472761390929794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_106
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 361
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c3d99b4588c7d60800000000000000
+      internalID: 7889330544718986301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_107
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 360
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9488bdc724753f0800000000000000
+      internalID: -912187295492716106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_108
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 348
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c5d5cdac50da850800000000000000
+      internalID: 6389769815147240448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_109
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b819505e03ac8a450800000000000000
+      internalID: 6100348006622925195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_110
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 343
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a7514858a7fa10800000000000000
+      internalID: 1943206861240510622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_111
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 351
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1979b0dd5efc158f0800000000000000
+      internalID: -553432693026875503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_112
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 351
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a77d58fdd2a7d30800000000000000
+      internalID: 4429903621518752414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_113
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 348
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f60279c2d130320800000000000000
+      internalID: 2522892293608861548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_114
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 351
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0645f00a1b593a30800000000000000
+      internalID: 4195484695115679246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_115
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 355
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adddbd062c4c97a50800000000000000
+      internalID: 6519458274723225050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_116
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef897042cb8607ce0800000000000000
+      internalID: -1409511526099347202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_117
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 346
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c706e99858f01efe0800000000000000
+      internalID: -1161630162670952324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_118
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 351
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa13ecba36390a5d0800000000000000
+      internalID: -3053278491063733841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_119
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 354
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c174f36e4ab2960800000000000000
+      internalID: 7578332106792049664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_120
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 349
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dceb2f0f55cbed0800000000000000
+      internalID: -2396946408314843852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_121
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 348
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c6a88afc5028580800000000000000
+      internalID: -8826485930248737687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_122
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 337
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9479c2b9596b26ff0800000000000000
+      internalID: -44272292650510519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_123
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d99e1c1d132eb800800000000000000
+      internalID: 629979605811239377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_124
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2655480122c09d2f0800000000000000
+      internalID: -947712906139249310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_125
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 343
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82b888f82ec53d0800000000000000
+      internalID: -3216446927750354699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_126
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 348
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf9875c99d0e91b0800000000000000
+      internalID: -5648061928581849168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_127
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 349
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a9ec177a6498030800000000000000
+      internalID: 3497404270612748951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_128
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c6f944bb5671d30800000000000000
+      internalID: 4402099015762537548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_129
+      rect:
+        serializedVersion: 2
+        x: 4116
+        y: 345
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda019f10527cc000800000000000000
+      internalID: 57546583701523163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_130
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 332
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c69d7b5d84d3c30800000000000000
+      internalID: 4340705698604739699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_131
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 332
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a5fb770b0ac0db0800000000000000
+      internalID: -4824304421036926380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_132
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 332
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6db604e798f8f90800000000000000
+      internalID: -6949184524669692199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_133
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 332
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907f7b0192d62b100800000000000000
+      internalID: 122280163034003209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_134
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 326
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcc34d191902b5f0800000000000000
+      internalID: -742520985092895501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_135
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 332
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18cea0a15045180800000000000000
+      internalID: -9127664935362592258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_136
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 341
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc94c04047cbaf0800000000000000
+      internalID: -379300707871110263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_137
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 333
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec60d026d0e65870800000000000000
+      internalID: 8671365342826622182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_138
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 337
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4302305f263851290800000000000000
+      internalID: -7920279908620492748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_139
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 337
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbaa4d21d0aed940800000000000000
+      internalID: 5322868629866982387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_140
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 340
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd43f21d7245a99a0800000000000000
+      internalID: -6225571004896299811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_141
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 334
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9fffa2cb5b13bb0800000000000000
+      internalID: -4957981894978307585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_142
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 334
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7896305af99af50800000000000000
+      internalID: 6893216235742922716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_143
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 334
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3efa5e8ce8da34c0800000000000000
+      internalID: -4306891583114248646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_144
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 328
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5a5a0cd9d4c580800000000000000
+      internalID: -8807675432140121141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_145
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 334
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80ef72b451cd50b0800000000000000
+      internalID: -5738217780684005237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_146
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b630bf254b288c50800000000000000
+      internalID: 6667626824474834611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_147
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 329
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a34852c67ded0a00800000000000000
+      internalID: 724496209399006121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_148
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 302
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51188fadc26714fe0800000000000000
+      internalID: -1206553290134224619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_149
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 329
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8c21ddbf8fa510800000000000000
+      internalID: 1562625641141799596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_150
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 326
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522537ee0abb013f0800000000000000
+      internalID: -932038822995996123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_151
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 322
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867413a95edb7340800000000000000
+      internalID: 4862724699246065294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_152
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 325
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f51fab6d1e1f840800000000000000
+      internalID: 5256230552493711151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_153
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 285
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a17d7c01b1b2e20800000000000000
+      internalID: 3326782508629432865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_154
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 308
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3519acb8eba5df70800000000000000
+      internalID: 9211457628942177598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_155
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 314
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c5af0ad50aa45b0800000000000000
+      internalID: -5383314080574841802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_156
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 308
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4eda0714f27ad20800000000000000
+      internalID: 3289650010927260875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_157
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 317
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471f2fd850c54ff60800000000000000
+      internalID: 8067174011453501812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_158
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 308
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fec18eeb11bba40800000000000000
+      internalID: 5384917291087228761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_159
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 302
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12596c058ee50540800000000000000
+      internalID: 4973643618706870811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_160
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 313
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0281ffb1b8a3ad1e0800000000000000
+      internalID: -2172359501108275168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_161
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 299
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe6775c53cc12aa0800000000000000
+      internalID: -6187439881712079108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_162
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 316
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cac33a65609e00800000000000000
+      internalID: 1049450219987191314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_163
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 314
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813a293533b3bce0800000000000000
+      internalID: -1390570818753646206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_164
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 308
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bbb7bbb036ba5a0800000000000000
+      internalID: -6508999934392681598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_165
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 311
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d81214c92052d0800000000000000
+      internalID: -3292085405513886308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_166
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 308
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9297020d03f8aa0800000000000000
+      internalID: -6156648495136036424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_167
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 314
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7274fef76eca7ecd0800000000000000
+      internalID: -2528862559756400857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_168
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 317
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577efdc065ef9350800000000000000
+      internalID: 6025787030380640090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_169
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 305
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d134be9d6f800660800000000000000
+      internalID: 7350032292845466067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_170
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 299
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0bbeeec1c4ede70800000000000000
+      internalID: 9141827980759904440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_171
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 308
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d6faafc8bea2e0800000000000000
+      internalID: -2112547973124140218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_172
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 285
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831b14a6646ef3940800000000000000
+      internalID: 5278190478406299960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_173
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 285
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae3024ccb30ff810800000000000000
+      internalID: 1801162485250670255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_174
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 285
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b4cb64492e84710800000000000000
+      internalID: 1677839987665292136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_175
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 282
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460982a4d50067b20800000000000000
+      internalID: 3131690991558889572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_176
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 301
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55d9a3191c2e6d0800000000000000
+      internalID: -2962592775358556686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_177
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 285
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa0abcf1af54f2a0800000000000000
+      internalID: -6704628795913401692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_178
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 293
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e76573ad32cc7b0800000000000000
+      internalID: -5202744049381507459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_179
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2bedcde5c747200800000000000000
+      internalID: 176903032248644283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_180
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3bc9f79f1e00ef0800000000000000
+      internalID: -143866726371773503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_181
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 293
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82794e814206effa0800000000000000
+      internalID: -5765064764834932952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_182
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 293
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c00757b9ae9beca0800000000000000
+      internalID: -5986516827896348476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_183
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 293
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3d4bfb3b59d0900800000000000000
+      internalID: 652342120286573535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_184
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 293
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a241aed4baa597000800000000000000
+      internalID: 34158163975083050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_185
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 288
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aee7aafa57009070800000000000000
+      internalID: 8110991016228023973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_186
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 291
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac500413c1f29230800000000000000
+      internalID: 3644240868652637359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_187
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 293
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41012a4b1bf0cd9d0800000000000000
+      internalID: -2748304416688697324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_188
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 293
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed55d7db591e8fb40800000000000000
+      internalID: 5474373380314322398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_189
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 258
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef995461a293b10800000000000000
+      internalID: 1961645387841928888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_190
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 276
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7318155d7fa2324f0800000000000000
+      internalID: -854792260346085065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_191
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 270
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f6fade68e57990800000000000000
+      internalID: -7388744050813765402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_192
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 264
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46550525b0698790800000000000000
+      internalID: -7527378971046619572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_193
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 278
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39066308c0739a0800000000000000
+      internalID: -6253515812772998162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_194
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 232
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d25226d86bd0b80800000000000000
+      internalID: -8426878609387082390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_195
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 214
+        width: 21
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a752d791418df5b0800000000000000
+      internalID: -5332964265016797276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_196
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 267
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aaad9251e7e4a40800000000000000
+      internalID: 5354355636351707742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_197
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 247
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60d86622f9518cc0800000000000000
+      internalID: -3710585721415217043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_198
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 267
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b248198fb28bfa70800000000000000
+      internalID: 8861820450932015799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_199
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 267
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3df649682e66940800000000000000
+      internalID: 5289163880037077989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_200
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 244
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c1e4e7c912508b0800000000000000
+      internalID: -5186702439829594999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_201
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 267
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1555acfec612e800800000000000000
+      internalID: 640099175297799453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_202
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 272
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc882ecc0798bd0800000000000000
+      internalID: -2627444882317718074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_203
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 266
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc158c9a1136b8020800000000000000
+      internalID: 2345076958490546639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_204
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 232
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a857e4e4bec0db060800000000000000
+      internalID: 6970742003010008458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_205
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 258
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fe07e5e6f469910800000000000000
+      internalID: 1843748432904253258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_206
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 226
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d108e0ece16840800000000000000
+      internalID: 5215710294181008331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_207
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 220
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7969a415fc5c523e0800000000000000
+      internalID: -2079038158748871017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_208
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 241
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f966721990595070800000000000000
+      internalID: 8095590423545145849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Walk_Flat_209
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 0
+        width: 40
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4239d6fde63ce8960800000000000000
+      internalID: 7606231701637665572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
