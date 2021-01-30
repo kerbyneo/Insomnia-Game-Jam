@@ -14,6 +14,7 @@ public class OP : MonoBehaviour
     public int i = 0; //Will control where in the array you are
     
     public GameObject nextScene;
+    public GameObject nextButton;
 
     public bool nextImage = false;
  
@@ -24,7 +25,7 @@ public class OP : MonoBehaviour
     }
  
     public void BtnPrev () {
-        if(i - 1 > 0){
+        if(i > 0){
         i--;
         }
     }
@@ -37,8 +38,14 @@ public class OP : MonoBehaviour
         */
         displayImage.sprite = gallery[i];
 
-        if(i == 17){
+        if(i < 20){
+            nextButton.SetActive(true);
+            nextScene.SetActive(false);
+        }
+
+        if(i == 20){
             nextScene.SetActive(true);
+            nextButton.SetActive(false);
         }
         
     }
