@@ -83,6 +83,7 @@ public class control : MonoBehaviour
             }
             if (moving)
             {
+
                 if (colored)
                 {
                     //colored walking animation
@@ -101,6 +102,7 @@ public class control : MonoBehaviour
             }
             else
             {
+
                 if (colored)
                 {
                     //colored idle animation
@@ -165,6 +167,7 @@ public class control : MonoBehaviour
         //moving
         if (!allColored)
         {
+            anim.SetBool("die", false);
             if (colored)
             {
                 movingSpd = 1;
@@ -189,7 +192,6 @@ public class control : MonoBehaviour
         }
         else
         {
-
             colored = false;
             moving = false;
         }
@@ -230,6 +232,7 @@ public class control : MonoBehaviour
         {
             notColorAgain = true;
             stillIn = false;
+
         }
     }
 
