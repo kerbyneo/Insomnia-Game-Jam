@@ -2410,6 +2410,7 @@ MonoBehaviour:
   allColored: 0
   moving: 0
   thisSprite: {fileID: 1953544529}
+  anim: {fileID: 1953544531}
 --- !u!61 &1953544533
 BoxCollider2D:
   m_ObjectHideFlags: 0
