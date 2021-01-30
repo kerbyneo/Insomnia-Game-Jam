@@ -17,13 +17,20 @@ public class gameManager : MonoBehaviour
     public int duration = 200;
     public SpriteRenderer recall;
     public SpriteRenderer handk;
+    public SpriteRenderer ui;
     public float recallA = 0;
     public float handkA = 0;
+    public float uiA = 0;
+    public Transform uiT;
+    public Transform handkT;
+    public bool first = true;
+    public int handkCounter = 0;
     // Start is called before the first frame update
     void Start()
     {
         recall.color = new Color(1, 1, 1, recallA);
         handk.color = new Color(1, 1, 1, handkA);
+        ui.color = new Color(1, 1, 1, uiA);
     }
 
     // Update is called once per frame
@@ -44,9 +51,9 @@ public class gameManager : MonoBehaviour
             }
         }
 
-        if (player.firstDie)
+        if (first)
         {
-            duration = 1000;
+            duration = 800;
         }
         else
         {
@@ -71,9 +78,9 @@ public class gameManager : MonoBehaviour
                     roomA += 0.1f;
                 }
                 room.color = new Color(1, 1, 1, roomA);
-                if (player.firstDie)
+                if (first)
                 {
-                    if (fadeCounter > 200)
+                    if (fadeCounter > 250 && fadeCounter < 500)
                     {
                         if (recallA < 1)
                         {
@@ -85,9 +92,31 @@ public class gameManager : MonoBehaviour
                             if (handkA < 1)
                             {
                                 handkA += 0.08f;
-                                handk.color = new Color(0, 1, 1, handkA);
+                                handk.color = new Color(1, 1, 1, handkA);
+                                uiA += 0.08f;
+                                ui.color = new Color(1, 1, 1, uiA);
+                            }
+                            else
+                            {
+                                handkCounter += 1;
+                                if (handkCounter > 30)
+                                {
+                                    Vector3 targetPosition = uiT.position;
+                                    Vector3 smoothedPosition = Vector3.Lerp(handkT.position, targetPosition, 1.5f * Time.deltaTime);
+                                    handkT.position = smoothedPosition;
+                                }
                             }
                         }
+                    }else if (fadeCounter > 500 && fadeCounter < 600)
+                    {
+                        if (recallA > 0)
+                        {
+                            recallA -= 0.05f;
+                            recall.color = new Color(1, 1, 1, recallA);
+                        }
+                    }else if (fadeCounter > 600)
+                    {
+                        first = false;
                     }
                 }
             }
