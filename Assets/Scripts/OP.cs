@@ -45,12 +45,12 @@ public class OP : MonoBehaviour
             prevButton.SetActive(true);
         }
 
-        if(i < 20){
+        if(i < 19){
             nextButton.SetActive(true);
             nextScene.SetActive(false);
         }
 
-        if(i == 20){
+        if(i == 19){
             nextScene.SetActive(true);
             nextButton.SetActive(false);
         }
