@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - color
+  - check
   layers:
   - Default
   - TransparentFX

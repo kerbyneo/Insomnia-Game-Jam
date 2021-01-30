@@ -21,7 +21,8 @@ public class control : MonoBehaviour
     public bool moving = false;
     public SpriteRenderer thisSprite;
     private bool movingRight;
-    private bool movingLeft;
+    public Transform checkpoint;
+    public bool firstDie = false;
 
     public Animator anim;
     // Start is called before the first frame update
@@ -198,9 +199,15 @@ public class control : MonoBehaviour
         }
         if (colored && notColorAgain)
         {
-            allColored = true;
+            if (collision.gameObject.CompareTag("color"))
+            {
+                allColored = true;
+                firstDie = true;
+            }
         }
     }
+
+
 
     private void OnTriggerExit2D(Collider2D collision)
     {
