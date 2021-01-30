@@ -499,6 +499,7 @@ MonoBehaviour:
   i: 0
   nextScene: {fileID: 851120254}
   nextButton: {fileID: 1328648523}
+  prevButton: {fileID: 727018985}
   nextImage: 0
 --- !u!61 &289667643
 BoxCollider2D:

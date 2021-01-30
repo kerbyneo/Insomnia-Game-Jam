@@ -15,6 +15,7 @@ public class OP : MonoBehaviour
     
     public GameObject nextScene;
     public GameObject nextButton;
+    public GameObject prevButton;
 
     public bool nextImage = false;
  
@@ -37,6 +38,12 @@ public class OP : MonoBehaviour
         }
         */
         displayImage.sprite = gallery[i];
+
+        if (i == 0){
+            prevButton.SetActive(false);
+        }else{
+            prevButton.SetActive(true);
+        }
 
         if(i < 20){
             nextButton.SetActive(true);
