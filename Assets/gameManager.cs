@@ -26,6 +26,7 @@ public class gameManager : MonoBehaviour
     public bool first = true;
     public int handkCounter = 0;
     public handkClick handkScr;
+    public faScr fa;
     // Start is called before the first frame update
     void Start()
     {
@@ -123,10 +124,12 @@ public class gameManager : MonoBehaviour
                 }
             }
         }
-
-        if (!player.firstDie)
+        if (fa.next)
         {
-            startCounter += 1;
+            if (!player.firstDie)
+            {
+                startCounter += 1;
+            }
         }
 
         if (startCounter > 50)
