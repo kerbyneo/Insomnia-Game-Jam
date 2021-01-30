@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Sprites;
+using UnityEngine.SceneManagement;
 
 public class OP : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class OP : MonoBehaviour
     public Button nextImg; //Button to view next image
     public Button prevImg; //Button to view previous image
     public int i = 0; //Will control where in the array you are
+    
+    public GameObject nextScene;
 
     public bool nextImage = false;
 
@@ -39,6 +42,10 @@ public class OP : MonoBehaviour
         */
         if (nextImage == true){
             displayImage.sprite = gallery[i];
+        }
+
+        if(i == 17){
+            nextScene.SetActive(true);
         }
         
     }

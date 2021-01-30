@@ -190,6 +190,12 @@ public class control : MonoBehaviour
         else
         {
             //death animation
+            anim.SetBool("die", true);
+            anim.SetBool("coloredrun", false);
+            anim.SetBool("coloredidle", false);
+            anim.SetBool("running", false);
+            anim.SetBool("jumping", false);
+            moving = false;
         }
     }
 
