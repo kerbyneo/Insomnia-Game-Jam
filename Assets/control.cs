@@ -18,6 +18,10 @@ public class control : MonoBehaviour
     public bool releasedJump = true;
     public bool notColorAgain = false;
     public bool allColored = false;
+    public bool moving = false;
+    public SpriteRenderer thisSprite;
+    private bool movingRight;
+    private bool movingLeft;
     // Start is called before the first frame update
     void Start()
     {
@@ -111,10 +115,56 @@ public class control : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
+                moving = true;
+                movingRight = false;
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 transform.Translate(movingSpd * Time.deltaTime, 0, 0);
+                moving = true;
+                movingRight = true;
+            }
+            if (moving && (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))){
+                moving = false;
+            }
+
+
+            if (!movingRight)
+            {
+                if (thisSprite.flipX == false)
+                {
+                    thisSprite.flipX = true;
+                }
+
+            }
+            else
+            {
+                if (thisSprite.flipX == true)
+                {
+                    thisSprite.flipX = false;
+                }
+            }
+            if (moving)
+            {
+                if (colored)
+                {
+                    //colored walking animation
+                }
+                else
+                {
+                    //white run animation
+                }
+            }
+            else
+            {
+                if (colored)
+                {
+                    //colored idle animation
+                }
+                else
+                {
+                    //white idle animation
+                }
             }
         }
     }
