@@ -25,6 +25,7 @@ public class gameManager : MonoBehaviour
     public Transform handkT;
     public bool first = true;
     public int handkCounter = 0;
+    public handkClick handkScr;
     // Start is called before the first frame update
     void Start()
     {
@@ -117,6 +118,7 @@ public class gameManager : MonoBehaviour
                     }else if (fadeCounter > 600)
                     {
                         first = false;
+                        handkScr.availale = true;
                     }
                 }
             }

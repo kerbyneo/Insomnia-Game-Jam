@@ -23,6 +23,7 @@ public class control : MonoBehaviour
     private bool movingRight;
     public Transform checkpoint;
     public bool firstDie = false;
+    public bool stillIn = false;
 
     public Animator anim;
     // Start is called before the first frame update
@@ -184,7 +185,11 @@ public class control : MonoBehaviour
                 moving = true;
                 movingRight = true;
             }
-            
+
+        }
+        else
+        {
+            //death animation
         }
     }
 
@@ -195,6 +200,7 @@ public class control : MonoBehaviour
             if (collision.gameObject.CompareTag("color"))
             {
                 colored = true;
+                stillIn = true;
             }
         }
         if (colored && notColorAgain)
@@ -214,6 +220,7 @@ public class control : MonoBehaviour
         if (colored && collision.gameObject.CompareTag("color"))
         {
             notColorAgain = true;
+            stillIn = false;
         }
     }
 
