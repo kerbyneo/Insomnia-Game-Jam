@@ -16,11 +16,6 @@ public class OP : MonoBehaviour
     public GameObject nextScene;
 
     public bool nextImage = false;
-
-    //public float transitionA = 0;
-    //public SpriteRenderer transition;
-
-
  
     public void BtnNext () {
         if(i + 1 < gallery.Length){
@@ -40,16 +35,14 @@ public class OP : MonoBehaviour
             transition.color = new Color(1,1,1, transitionA);
         }
         */
-        if (nextImage == true){
-            displayImage.sprite = gallery[i];
-        }
+        displayImage.sprite = gallery[i];
 
         if(i == 17){
             nextScene.SetActive(true);
         }
         
     }
-
+    /*
     void OnMouseOver()
     {
         //If your mouse hovers over the GameObject with the script attached, output this message
@@ -68,5 +61,5 @@ public class OP : MonoBehaviour
         Debug.Log("Mouse is no longer on GameObject.");
         nextImage = false;
     }
-    
+    */
 }
