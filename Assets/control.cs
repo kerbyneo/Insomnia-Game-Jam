@@ -22,6 +22,8 @@ public class control : MonoBehaviour
     public SpriteRenderer thisSprite;
     private bool movingRight;
     private bool movingLeft;
+
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,49 @@ public class control : MonoBehaviour
             }
         }
 
+        if (moving && (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))){
+                moving = false;
+            }
+
+
+            if (!movingRight)
+            {
+                if (thisSprite.flipX == false)
+                {
+                    thisSprite.flipX = true;
+                }
+
+            }
+            else
+            {
+                if (thisSprite.flipX == true)
+                {
+                    thisSprite.flipX = false;
+                }
+            }
+            if (moving)
+            {
+                if (colored)
+                {
+                    //colored walking animation
+                }
+                else
+                {
+                   anim.SetBool("running", true);
+                }
+            }
+            else
+            {
+                if (colored)
+                {
+                    //colored idle animation
+                }
+                else
+                {
+                    //white idle animation
+                    anim.SetBool("running", false);
+                }
+            }
 
     }
 
@@ -124,48 +169,7 @@ public class control : MonoBehaviour
                 moving = true;
                 movingRight = true;
             }
-            if (moving && (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))){
-                moving = false;
-            }
-
-
-            if (!movingRight)
-            {
-                if (thisSprite.flipX == false)
-                {
-                    thisSprite.flipX = true;
-                }
-
-            }
-            else
-            {
-                if (thisSprite.flipX == true)
-                {
-                    thisSprite.flipX = false;
-                }
-            }
-            if (moving)
-            {
-                if (colored)
-                {
-                    //colored walking animation
-                }
-                else
-                {
-                    //white run animation
-                }
-            }
-            else
-            {
-                if (colored)
-                {
-                    //colored idle animation
-                }
-                else
-                {
-                    //white idle animation
-                }
-            }
+            
         }
     }
 
