@@ -15,6 +15,9 @@ public class handkClick : MonoBehaviour
     public Sprite uiS1;
     public Sprite uiS2;
     public SpriteRenderer uiS;
+    public int counter = 0;
+    public bool letGo = false;
+    public bool spr2 = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,22 +26,44 @@ public class handkClick : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    void FixedUpdate()
+    {
+        if (counter < 60)
+        {
+            counter += 1;
+        }
+        else
+        {
+            counter = 70;
+            letGo = true;
+        }
+    }
+
     void Update()
     {
         if (availale)
         {
-            if (!player.stillIn && player.colored)
+
+
+
+            if (!player.stillIn && player.colored && letGo)
             {
                 uiS.sprite = uiS2;
+                spr2 = true;
             }
             else
             {
                 uiS.sprite = uiS1;
+                spr2 = false;
             }
 
             if (follow)
             {
-                left.SetActive(true);
+                if (spr2)
+                {
+                    left.SetActive(true);
+                }
                 right.SetActive(true);
                 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 transform.position = new Vector3(mousePosition.x, mousePosition.y, -10);
@@ -76,7 +101,6 @@ public class handkClick : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 follow = true;
-
             }
         }
 
