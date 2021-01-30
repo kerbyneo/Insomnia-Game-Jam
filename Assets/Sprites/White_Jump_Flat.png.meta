@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 423f975ee41086e40b0ad698967816f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -801040492979217211
+    second: White_Jump_Flat_0
+  - first:
+      213: 1454892989766918653
+    second: White_Jump_Flat_1
+  - first:
+      213: 5686766624268573521
+    second: White_Jump_Flat_2
+  - first:
+      213: 7987146022027838394
+    second: White_Jump_Flat_3
+  - first:
+      213: 5505635983623188832
+    second: White_Jump_Flat_4
+  - first:
+      213: -456976409285228209
+    second: White_Jump_Flat_5
+  - first:
+      213: 3645800422098408730
+    second: White_Jump_Flat_6
+  - first:
+      213: 8994108189792893086
+    second: White_Jump_Flat_7
+  - first:
+      213: 2362818615723458688
+    second: White_Jump_Flat_8
+  - first:
+      213: 5943698809140331830
+    second: White_Jump_Flat_9
+  - first:
+      213: -7206752763904546215
+    second: White_Jump_Flat_10
+  - first:
+      213: 7594951710787034446
+    second: White_Jump_Flat_11
+  - first:
+      213: -5412298364363837187
+    second: White_Jump_Flat_12
+  - first:
+      213: -5141787072379083277
+    second: White_Jump_Flat_13
+  - first:
+      213: -1466472389681042449
+    second: White_Jump_Flat_14
+  - first:
+      213: 6350750673734271471
+    second: White_Jump_Flat_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White_Jump_Flat_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 152
+        width: 206
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc154d6ae122e4f0800000000000000
+      internalID: -801040492979217211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 150
+        width: 197
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df163414771d03410800000000000000
+      internalID: 1454892989766918653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 150
+        width: 197
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b53107d147bee40800000000000000
+      internalID: 5686766624268573521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_3
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 150
+        width: 223
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c4244dfa08de60800000000000000
+      internalID: 7987146022027838394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_4
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 150
+        width: 213
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061f77ac1c2f76c40800000000000000
+      internalID: 5505635983623188832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_5
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 147
+        width: 231
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4902dd706e78a9f0800000000000000
+      internalID: -456976409285228209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_6
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 258
+        width: 237
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a151529ea2c789230800000000000000
+      internalID: 3645800422098408730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_7
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 381
+        width: 223
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98790ceebd71dc70800000000000000
+      internalID: 8994108189792893086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_8
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 329
+        width: 257
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08080e2230b6ac020800000000000000
+      internalID: 2362818615723458688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_9
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 147
+        width: 256
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635c8ba63924c7250800000000000000
+      internalID: 5943698809140331830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_10
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 152
+        width: 231
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aa7635b887cfb90800000000000000
+      internalID: -7206752763904546215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_11
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 527
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dd4b75750b66960800000000000000
+      internalID: 7594951710787034446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_12
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 150
+        width: 202
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df07aad2057a3e4b0800000000000000
+      internalID: -5412298364363837187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_13
+      rect:
+        serializedVersion: 2
+        x: 5584
+        y: 527
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5262866e3b4a8b0800000000000000
+      internalID: -5141787072379083277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_14
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 385
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba42c912b06abe0800000000000000
+      internalID: -1466472389681042449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_Jump_Flat_15
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 339
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1010d0716622850800000000000000
+      internalID: 6350750673734271471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
