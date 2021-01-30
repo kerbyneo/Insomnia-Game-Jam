@@ -438,7 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1953544530}
   smoothSpeed: 5
-  offset: {x: 0, y: 0.5, z: -10}
+  offset: {x: 0, y: 0.4, z: -10}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1260,6 +1260,8 @@ MonoBehaviour:
   releasedJump: 1
   notColorAgain: 0
   allColored: 0
+  moving: 0
+  thisSprite: {fileID: 1953544529}
 --- !u!61 &1953544533
 BoxCollider2D:
   m_ObjectHideFlags: 0
