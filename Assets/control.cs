@@ -16,6 +16,8 @@ public class control : MonoBehaviour
     private float jumpGravity = 7;
     private float fallGravity = 5f;
     public bool releasedJump = true;
+    public bool notColorAgain = false;
+    public bool allColored = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,7 @@ public class control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!colored)
+        if (!colored || !allColored)
         {
             if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump)
             {
@@ -50,6 +52,8 @@ public class control : MonoBehaviour
                 releasedJump = true;
             }
         }
+
+
     }
 
     void FixedUpdate()
@@ -94,21 +98,48 @@ public class control : MonoBehaviour
         }
 
         //moving
-        if (colored)
+        if (!allColored)
         {
-            movingSpd = 2;
-        }
-        else
-        {
-            movingSpd = 5;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(movingSpd * Time.deltaTime, 0, 0);
+            if (colored)
+            {
+                movingSpd = 1;
+            }
+            else
+            {
+                movingSpd = 5;
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(movingSpd * Time.deltaTime, 0, 0);
+            }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!colored)
+        {
+            if (collision.gameObject.CompareTag("color"))
+            {
+                colored = true;
+            }
+        }
+        if (colored && notColorAgain)
+        {
+            allColored = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (colored && collision.gameObject.CompareTag("color"))
+        {
+            notColorAgain = true;
+        }
+    }
+
 }
