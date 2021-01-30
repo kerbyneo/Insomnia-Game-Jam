@@ -84,10 +84,17 @@ public class control : MonoBehaviour
                 if (colored)
                 {
                     //colored walking animation
+                    anim.SetBool("coloredrun", true);
+                    anim.SetBool("running", false);
+                    anim.SetBool("coloredidle", false);
+
                 }
                 else
                 {
+                    //white walking animation
                    anim.SetBool("running", true);
+                   anim.SetBool("coloredrun", false);
+                   anim.SetBool("coloredidle", false);
                 }
             }
             else
@@ -95,11 +102,16 @@ public class control : MonoBehaviour
                 if (colored)
                 {
                     //colored idle animation
+                    anim.SetBool("coloredidle", true);
+                    anim.SetBool("coloredrun", false);
+                    anim.SetBool("running", false);
                 }
                 else
                 {
                     //white idle animation
                     anim.SetBool("running", false);
+                    anim.SetBool("coloredrun", false);
+                    anim.SetBool("coloredidle", false);
                 }
             }
 
@@ -114,6 +126,7 @@ public class control : MonoBehaviour
             thisRigidbody.gravityScale = jumpGravity;
 
             //jumping animation
+            anim.SetBool("jumping", true);
             jumpcounter += 1;
 
             int minusIdx = 100;
@@ -142,6 +155,7 @@ public class control : MonoBehaviour
         {
             thisRigidbody.gravityScale = fallGravity;
             //falling animation
+            anim.SetBool("jumping", false);
             transform.Translate(0, 0, 0);
             jumpcounter = 0;
         }
