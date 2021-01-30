@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 48c65504a2bc58745acba02822c3ce9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7324222632286368743
+    second: Red_Kneel_Flat_0
+  - first:
+      213: -6331544095386218915
+    second: Red_Kneel_Flat_1
+  - first:
+      213: 3645830126633327700
+    second: Red_Kneel_Flat_2
+  - first:
+      213: 8893312250810488625
+    second: Red_Kneel_Flat_3
+  - first:
+      213: 5451425281290398779
+    second: Red_Kneel_Flat_4
+  - first:
+      213: -5387415827156375968
+    second: Red_Kneel_Flat_5
+  - first:
+      213: -9155577886763479130
+    second: Red_Kneel_Flat_6
+  - first:
+      213: -5880895549648037720
+    second: Red_Kneel_Flat_7
+  - first:
+      213: 372340654388799318
+    second: Red_Kneel_Flat_8
+  - first:
+      213: 7539022048400066020
+    second: Red_Kneel_Flat_9
+  - first:
+      213: -4627539871229799717
+    second: Red_Kneel_Flat_10
+  - first:
+      213: 7484154064088328434
+    second: Red_Kneel_Flat_11
+  - first:
+      213: -4378965223172679120
+    second: Red_Kneel_Flat_12
+  - first:
+      213: 7332728836155955611
+    second: Red_Kneel_Flat_13
+  - first:
+      213: -7560307588384651669
+    second: Red_Kneel_Flat_14
+  - first:
+      213: 1762641124322873356
+    second: Red_Kneel_Flat_15
+  - first:
+      213: -7678653695527575011
+    second: Red_Kneel_Flat_16
+  - first:
+      213: -5797541433509053657
+    second: Red_Kneel_Flat_17
+  - first:
+      213: 3774533137549171044
+    second: Red_Kneel_Flat_18
+  - first:
+      213: 5116864827668983094
+    second: Red_Kneel_Flat_19
+  - first:
+      213: -3205876521783367293
+    second: Red_Kneel_Flat_20
+  - first:
+      213: -7575727572645540562
+    second: Red_Kneel_Flat_21
+  - first:
+      213: -7266965958935271426
+    second: Red_Kneel_Flat_22
+  - first:
+      213: -6553136485146253993
+    second: Red_Kneel_Flat_23
+  - first:
+      213: 524221571020153117
+    second: Red_Kneel_Flat_24
+  - first:
+      213: 8786263814119488725
+    second: Red_Kneel_Flat_25
+  - first:
+      213: -124496672982114357
+    second: Red_Kneel_Flat_26
+  - first:
+      213: -3744089797473286065
+    second: Red_Kneel_Flat_27
+  - first:
+      213: -5774953260746541615
+    second: Red_Kneel_Flat_28
+  - first:
+      213: 7690297191675859563
+    second: Red_Kneel_Flat_29
+  - first:
+      213: 8796786896131171577
+    second: Red_Kneel_Flat_30
+  - first:
+      213: -873627469070278930
+    second: Red_Kneel_Flat_31
+  - first:
+      213: 8000723034691948080
+    second: Red_Kneel_Flat_32
+  - first:
+      213: 6719455354454506199
+    second: Red_Kneel_Flat_33
+  - first:
+      213: -8842692548111496587
+    second: Red_Kneel_Flat_34
+  - first:
+      213: -5193467935555901787
+    second: Red_Kneel_Flat_35
+  - first:
+      213: 5207576287912247120
+    second: Red_Kneel_Flat_36
+  - first:
+      213: -3219127110460899102
+    second: Red_Kneel_Flat_37
+  - first:
+      213: 6590935552674606155
+    second: Red_Kneel_Flat_38
+  - first:
+      213: 3505393660326749766
+    second: Red_Kneel_Flat_39
+  - first:
+      213: -5659574159022690840
+    second: Red_Kneel_Flat_40
+  - first:
+      213: -4398840444549607135
+    second: Red_Kneel_Flat_41
+  - first:
+      213: 8648856958524940657
+    second: Red_Kneel_Flat_42
+  - first:
+      213: 4987617234622358618
+    second: Red_Kneel_Flat_43
+  - first:
+      213: 2910784826263057802
+    second: Red_Kneel_Flat_44
+  - first:
+      213: 8515390211366228914
+    second: Red_Kneel_Flat_45
+  - first:
+      213: 1173946188072581639
+    second: Red_Kneel_Flat_46
+  - first:
+      213: 6985546880900204806
+    second: Red_Kneel_Flat_47
+  - first:
+      213: 1045077286154657538
+    second: Red_Kneel_Flat_48
+  - first:
+      213: 1765355129417033908
+    second: Red_Kneel_Flat_49
+  - first:
+      213: 6692768817716027719
+    second: Red_Kneel_Flat_50
+  - first:
+      213: -1377082549729392538
+    second: Red_Kneel_Flat_51
+  - first:
+      213: -1335679549222657601
+    second: Red_Kneel_Flat_52
+  - first:
+      213: -86119929826391262
+    second: Red_Kneel_Flat_53
+  - first:
+      213: 959540687087334347
+    second: Red_Kneel_Flat_54
+  - first:
+      213: -8790725798385852257
+    second: Red_Kneel_Flat_55
+  - first:
+      213: 4527653490467458415
+    second: Red_Kneel_Flat_56
+  - first:
+      213: 5468827654157041987
+    second: Red_Kneel_Flat_57
+  - first:
+      213: -917173769318019776
+    second: Red_Kneel_Flat_58
+  - first:
+      213: -7633676945376825390
+    second: Red_Kneel_Flat_59
+  - first:
+      213: -8336389726603116820
+    second: Red_Kneel_Flat_60
+  - first:
+      213: 4166521461860514270
+    second: Red_Kneel_Flat_61
+  - first:
+      213: -2496288911045992096
+    second: Red_Kneel_Flat_62
+  - first:
+      213: 7479524118322574923
+    second: Red_Kneel_Flat_63
+  - first:
+      213: 395162918649151183
+    second: Red_Kneel_Flat_64
+  - first:
+      213: -3634683211314728638
+    second: Red_Kneel_Flat_65
+  - first:
+      213: -3542061423351751527
+    second: Red_Kneel_Flat_66
+  - first:
+      213: 2529687541084404195
+    second: Red_Kneel_Flat_67
+  - first:
+      213: -364807305036135524
+    second: Red_Kneel_Flat_68
+  - first:
+      213: -471921316630162396
+    second: Red_Kneel_Flat_69
+  - first:
+      213: -1551886152419189701
+    second: Red_Kneel_Flat_70
+  - first:
+      213: 2606121237566837996
+    second: Red_Kneel_Flat_71
+  - first:
+      213: 2628346764059031630
+    second: Red_Kneel_Flat_72
+  - first:
+      213: -3646053504317720071
+    second: Red_Kneel_Flat_73
+  - first:
+      213: -6755402871924379480
+    second: Red_Kneel_Flat_74
+  - first:
+      213: -7361948614290824692
+    second: Red_Kneel_Flat_75
+  - first:
+      213: 5567447138979618807
+    second: Red_Kneel_Flat_76
+  - first:
+      213: -4252678091533356362
+    second: Red_Kneel_Flat_77
+  - first:
+      213: -8781729320765406514
+    second: Red_Kneel_Flat_78
+  - first:
+      213: 2346722767298095813
+    second: Red_Kneel_Flat_79
+  - first:
+      213: 3879160745322819472
+    second: Red_Kneel_Flat_80
+  - first:
+      213: -168222919932722582
+    second: Red_Kneel_Flat_81
+  - first:
+      213: -844326641156888981
+    second: Red_Kneel_Flat_82
+  - first:
+      213: 9037834393609149725
+    second: Red_Kneel_Flat_83
+  - first:
+      213: -7846990305696545714
+    second: Red_Kneel_Flat_84
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 773
+        width: 231
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e33e4dbdadd4a560800000000000000
+      internalID: 7324222632286368743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 768
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e48c2f036d128a0800000000000000
+      internalID: -6331544095386218915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_2
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 145
+        width: 210
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c95690f27989230800000000000000
+      internalID: 3645830126633327700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_3
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 145
+        width: 211
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13750329f546b6b70800000000000000
+      internalID: 8893312250810488625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_4
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 145
+        width: 211
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ce5e2196a57ab40800000000000000
+      internalID: 5451425281290398779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_5
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 145
+        width: 232
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066e60559dd0c35b0800000000000000
+      internalID: -5387415827156375968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 742
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af8a0a9b6ad0f080800000000000000
+      internalID: -9155577886763479130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 748
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a89d0ae7acd26ea0800000000000000
+      internalID: -5880895549648037720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 754
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e7483ad1da2500800000000000000
+      internalID: 372340654388799318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 145
+        width: 211
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e549bc0c9cff9860800000000000000
+      internalID: 7539022048400066020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_10
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 145
+        width: 205
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2146f310da7cfb0800000000000000
+      internalID: -4627539871229799717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 732
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8e742f77e0dd760800000000000000
+      internalID: 7484154064088328434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 700
+        width: 127
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad00d845aca33c0800000000000000
+      internalID: -4378965223172679120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 734
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99d659a60613c560800000000000000
+      internalID: 7332728836155955611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 731
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6684a9fd44641790800000000000000
+      internalID: -7560307588384651669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0092c183c8267810800000000000000
+      internalID: 1762641124322873356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 725
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12a6dca521ff6590800000000000000
+      internalID: -7678653695527575011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 720
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b751d68cefa8fa0800000000000000
+      internalID: -5797541433509053657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_18
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 420
+        width: 356
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691f88e3e5d16430800000000000000
+      internalID: 3774533137549171044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 604
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d66e05371c20740800000000000000
+      internalID: 5116864827668983094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_20
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 145
+        width: 236
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3896655f9407283d0800000000000000
+      internalID: -3205876521783367293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_21
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 145
+        width: 222
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d845d19eb9dd690800000000000000
+      internalID: -7575727572645540562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 578
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7aece56fc862b90800000000000000
+      internalID: -7266965958935271426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 587
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755a43636159e05a0800000000000000
+      internalID: -6553136485146253993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_24
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 143
+        width: 236
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11e04ccdb8664700800000000000000
+      internalID: 524221571020153117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 551
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcf57723641fe970800000000000000
+      internalID: 8786263814119488725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 561
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfde2f7fe2b54ef0800000000000000
+      internalID: -124496672982114357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_27
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 145
+        width: 212
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48c07e8a225a0cc0800000000000000
+      internalID: -3744089797473286065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_28
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 551
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5f7ba3b9e3bdfa0800000000000000
+      internalID: -5774953260746541615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 535
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6216070d8c69ba60800000000000000
+      internalID: 7690297191675859563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 534
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4a5bc1317741a70800000000000000
+      internalID: 8796786896131171577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_31
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 532
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeda00127040e3f0800000000000000
+      internalID: -873627469070278930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_32
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 143
+        width: 209
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e491dd537480f60800000000000000
+      internalID: 8000723034691948080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_33
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 142
+        width: 207
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da7b5e2b0d404d50800000000000000
+      internalID: 6719455354454506199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 520
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a02d36af1784580800000000000000
+      internalID: -8842692548111496587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 520
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a62fc4cd681de7b0800000000000000
+      internalID: -5193467935555901787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_36
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 520
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb1cdfa07054840800000000000000
+      internalID: 5207576287912247120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_37
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 520
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0062ed2fc5353d0800000000000000
+      internalID: -3219127110460899102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_38
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 520
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca9a207f4b77b50800000000000000
+      internalID: 6590935552674606155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_39
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 520
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646aea136f8a5a030800000000000000
+      internalID: 3505393660326749766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 503
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede87fb9472571b0800000000000000
+      internalID: -5659574159022690840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_41
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 510
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121dff6fbed24f2c0800000000000000
+      internalID: -4398840444549607135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_42
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 500
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1716b068499e60870800000000000000
+      internalID: 8648856958524940657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 500
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5428490373973540800000000000000
+      internalID: 4987617234622358618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 457
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85b103a06f256820800000000000000
+      internalID: 2910784826263057802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_45
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 483
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b39250e74ebc2670800000000000000
+      internalID: 8515390211366228914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_46
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 454
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a7d7596d1ba4010800000000000000
+      internalID: 1173946188072581639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_47
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 426
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60905ed80e5a1f060800000000000000
+      internalID: 6985546880900204806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_48
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 427
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fd314314cd08e00800000000000000
+      internalID: 1045077286154657538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_49
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 410
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e05f032dcf7810800000000000000
+      internalID: 1765355129417033908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_50
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 405
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74166c7a7cd71ec50800000000000000
+      internalID: 6692768817716027719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_51
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 420
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6688df497be93ece0800000000000000
+      internalID: -1377082549729392538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_52
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 404
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb164d6d686b67de0800000000000000
+      internalID: -1335679549222657601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_53
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 402
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bcd9e416a0ecef0800000000000000
+      internalID: -86119929826391262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_54
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 390
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3ff59cb29f05d00800000000000000
+      internalID: 959540687087334347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_55
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 269
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90695d2671110680800000000000000
+      internalID: -8790725798385852257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_56
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 190
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dce5d6cd475de30800000000000000
+      internalID: 4527653490467458415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_57
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 173
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410ddfb6cd25eb40800000000000000
+      internalID: 5468827654157041987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 360
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d4e72f05b8543f0800000000000000
+      internalID: -917173769318019776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_59
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa9bc534bbf0690800000000000000
+      internalID: -7633676945376825390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 59
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceefa9436b13f4c80800000000000000
+      internalID: -8336389726603116820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_61
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 12
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9bc33c13572d930800000000000000
+      internalID: 4166521461860514270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_62
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 0
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0616b5816766b5dd0800000000000000
+      internalID: -2496288911045992096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_63
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b467591be8b9cc760800000000000000
+      internalID: 7479524118322574923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_64
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 12
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3d72b496eb7500800000000000000
+      internalID: 395162918649151183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_65
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 15
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241728e60e20f8dc0800000000000000
+      internalID: -3634683211314728638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_66
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 10
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c1180f6e118dec0800000000000000
+      internalID: -3542061423351751527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_67
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 7
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9311f6a614b1320800000000000000
+      internalID: 2529687541084404195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_68
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c938adb50b1ffeaf0800000000000000
+      internalID: -364807305036135524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_69
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 9
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424135810166379f0800000000000000
+      internalID: -471921316630162396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_70
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 0
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd43144c7967ae0800000000000000
+      internalID: -1551886152419189701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_71
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 0
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4d5ce257dca2420800000000000000
+      internalID: 2606121237566837996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_72
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e483942d473c97420800000000000000
+      internalID: 2628346764059031630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_73
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 7
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9f21bc7ad966dc0800000000000000
+      internalID: -3646053504317720071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_74
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 0
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a03b4031ecff32a0800000000000000
+      internalID: -6755402871924379480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_75
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0224869dba15d990800000000000000
+      internalID: -7361948614290824692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_76
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff15a0ecab834d40800000000000000
+      internalID: 5567447138979618807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_77
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b27112bec37bf4c0800000000000000
+      internalID: -4252678091533356362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_78
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 0
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2452ad5b7012680800000000000000
+      internalID: -8781729320765406514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_79
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caef136ceb319020800000000000000
+      internalID: 2346722767298095813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_80
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 0
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2b9b252c85d530800000000000000
+      internalID: 3879160745322819472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_81
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62c456452a5aadf0800000000000000
+      internalID: -168222919932722582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_82
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 0
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66e17fa4695844f0800000000000000
+      internalID: -844326641156888981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_83
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d91e91f76dc6d70800000000000000
+      internalID: 9037834393609149725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Kneel_Flat_84
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 0
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44060164e3e91390800000000000000
+      internalID: -7846990305696545714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
