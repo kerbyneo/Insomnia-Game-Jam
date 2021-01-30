@@ -189,12 +189,8 @@ public class control : MonoBehaviour
         }
         else
         {
-            //death animation
-            anim.SetBool("die", true);
-            anim.SetBool("coloredrun", false);
-            anim.SetBool("coloredidle", false);
-            anim.SetBool("running", false);
-            anim.SetBool("jumping", false);
+
+            colored = false;
             moving = false;
         }
     }
@@ -215,6 +211,13 @@ public class control : MonoBehaviour
             {
                 allColored = true;
                 firstDie = true;
+                //death animation
+                anim.SetBool("die", true);
+
+                anim.SetBool("coloredrun", false);
+                anim.SetBool("coloredidle", false);
+                anim.SetBool("running", false);
+                anim.SetBool("jumping", false);
             }
         }
     }
