@@ -44,6 +44,7 @@ public class control : MonoBehaviour
     public SpriteRenderer room;
     public Sprite finalRoom;
     public float a = 0;
+    public falling fall2;
     // Start is called before the first frame update
     void Start()
     {
@@ -401,6 +402,7 @@ public class control : MonoBehaviour
             bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
             bosscr.move = true;
             bossG.SetActive(true);
+            fall2.fall = true;
         }
 
     }
