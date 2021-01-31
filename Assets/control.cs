@@ -24,7 +24,7 @@ public class control : MonoBehaviour
     public Transform checkpoint;
     public bool firstDie = false;
     public bool stillIn = false;
-
+    public bool freeze = false;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -35,9 +35,13 @@ public class control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!stillIn && colored)
+        {
+            notColorAgain = true;
+        }
         if (!colored || !allColored)
         {
-            if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump)
+            if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump && !freeze)
             {
                 jumping = true;
                 transform.Translate(0, 0, 0);
@@ -177,13 +181,13 @@ public class control : MonoBehaviour
             {
                 movingSpd = 5;
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A)&&!freeze)
             {
                 transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
                 moving = true;
                 movingRight = false;
             }
-            else if (Input.GetKey(KeyCode.D))
+            else if (Input.GetKey(KeyCode.D)&&!freeze)
             {
                 transform.Translate(movingSpd * Time.deltaTime, 0, 0);
                 moving = true;
@@ -195,6 +199,13 @@ public class control : MonoBehaviour
         {
             colored = false;
             moving = false;
+            //death animation
+            anim.SetBool("die", true);
+
+            anim.SetBool("coloredrun", false);
+            anim.SetBool("coloredidle", false);
+            anim.SetBool("running", false);
+            anim.SetBool("jumping", false);
         }
     }
 
@@ -208,19 +219,17 @@ public class control : MonoBehaviour
                 stillIn = true;
             }
         }
+        if (collision.gameObject.CompareTag("check"))
+        {
+            checkpoint = collision.gameObject.transform;
+        }
         if (colored && notColorAgain)
         {
             if (collision.gameObject.CompareTag("color"))
             {
                 allColored = true;
                 firstDie = true;
-                //death animation
-                anim.SetBool("die", true);
 
-                anim.SetBool("coloredrun", false);
-                anim.SetBool("coloredidle", false);
-                anim.SetBool("running", false);
-                anim.SetBool("jumping", false);
             }
         }
     }

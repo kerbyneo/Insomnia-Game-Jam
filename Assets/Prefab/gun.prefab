@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450b6044448964b4d83eb8063589653f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3607786074835785475, guid: 3916986597ed7624b83681ba42bceff1, type: 3}
+  bullet: {fileID: 9151118984303024854, guid: 3916986597ed7624b83681ba42bceff1, type: 3}
   counter: 0
   right: 1
   speed: 40

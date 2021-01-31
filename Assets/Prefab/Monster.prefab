@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1443133477028217619}
   m_Layer: 2
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: color
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +138,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &5106370490546164055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,10 +149,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0065493584, y: -0.46510196}
+  m_Offset: {x: 0.001973033, y: 0.0020481348}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -163,7 +163,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5677571, y: 0.069796085}
+  m_Size: {x: 1.0006826, y: 1.0040963}
   m_EdgeRadius: 0
 --- !u!114 &5106370490546164052
 MonoBehaviour:
@@ -180,6 +180,10 @@ MonoBehaviour:
   leftpoint: {fileID: 5106370491055784861}
   rightpoint: {fileID: 5106370490522640060}
   Speed: 2
+  hit: 1
+  scr: {fileID: 0}
+  box: {fileID: 0}
+  player: {fileID: 0}
 --- !u!58 &1443133477028217619
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -193,9 +197,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.048909843}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.45109016
 --- !u!1 &5106370491055784858
 GameObject:
   m_ObjectHideFlags: 0

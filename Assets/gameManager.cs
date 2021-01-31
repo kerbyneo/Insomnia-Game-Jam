@@ -48,7 +48,7 @@ public class gameManager : MonoBehaviour
             if (getToPause > 200)
             {
                 pause = true;
-                playerG.SetActive(false);
+
                 player.allColored = false;
             }
         }
@@ -64,11 +64,11 @@ public class gameManager : MonoBehaviour
 
         if (pause)
         {
-           
+            player.freeze = true;
+            
             fadeCounter += 1;
             if(fadeCounter > duration)
             {
-                playerG.SetActive(true);
                 getToPause = 0;
                 startCounter += 1;
             }
@@ -78,6 +78,10 @@ public class gameManager : MonoBehaviour
                 if (roomA < 1)
                 {
                     roomA += 0.1f;
+                }
+                else
+                {
+                    playerG.transform.position = new Vector3(player.checkpoint.position.x, player.checkpoint.position.y, playerG.transform.position.z);
                 }
                 room.color = new Color(1, 1, 1, roomA);
                 if (first)
@@ -129,7 +133,13 @@ public class gameManager : MonoBehaviour
             if (!player.firstDie)
             {
                 startCounter += 1;
+                player.freeze = false;
             }
+
+        }
+        else
+        {
+            player.freeze = true;
         }
 
         if (startCounter > 50)
@@ -157,6 +167,7 @@ public class gameManager : MonoBehaviour
             player.allColored = false;
             if (startCounter > 101 && startCounter < 103)
             {
+                player.freeze = false;
                 pauseCounter = 0;
                 fadeCounter = 0;
                 getToPause = 0;
