@@ -21,7 +21,7 @@ public class MonsterMovement : MonoBehaviour
     }
 
     void Movement(){
-        float randomNumber = Random.Range(0, 500); //random distance
+        float randomNumber = Random.Range(5, 100); //random distance
         randomNumber = randomNumber - 1;
         if(Faceleft){
             rb.velocity = new Vector2(-Speed, rb.velocity.y);
