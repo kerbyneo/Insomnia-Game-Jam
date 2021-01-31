@@ -87,6 +87,7 @@ public class handkClick : MonoBehaviour
                             player.notColorAgain = false;
                             clean = false;
                             follow = false;
+                            cleanSound.Play();
                         }
                     }
                 }
@@ -98,6 +99,7 @@ public class handkClick : MonoBehaviour
                         boss.erased = true;
                         clean = false;
                         follow = false;
+                        cleanSound.Play();
                     }
                 }
 
@@ -129,12 +131,11 @@ public class handkClick : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             clean = true;
-            cleanSound.Play();
+            
         }
         if (collision.gameObject.CompareTag("boss"))
         {
             cleanBoss = true;
-            cleanSound.Play();
         }
     }
 

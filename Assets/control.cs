@@ -40,6 +40,10 @@ public class control : MonoBehaviour
     public gameManager manager;
     public bossBehavior bosscr;
     public int defeatCounter = 0;
+    public faScr fa;
+    public SpriteRenderer room;
+    public Sprite finalRoom;
+    public float a = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,8 +57,21 @@ public class control : MonoBehaviour
     {
         if (bosscr.defeated)
         {
+            room.sprite = finalRoom;
             defeatCounter += 1;
             StartCoroutine(Fadeout.startFade(nowPlaying, 2, 0));
+            if (defeatCounter > 500)
+            {
+                if (a < 1)
+                {
+                    a += 0.05f;
+                    room.color = new Color(1, 1, 1, a);
+                }
+            }
+            if (defeatCounter > 1000)
+            {
+
+            }
         }
 
         if (nowPlaying == blue)
@@ -82,7 +99,7 @@ public class control : MonoBehaviour
         else
         {
             nowPlaying.volume = 1;
-            if (!nowPlaying.isPlaying)
+            if (!nowPlaying.isPlaying && fa.next)
             {
                 nowPlaying.Play();
             }
@@ -149,6 +166,10 @@ public class control : MonoBehaviour
             if (jumping && !feet.grounded)
             {
                 inAir = true;
+                if (walkingSound.isPlaying)
+                {
+                    walkingSound.Stop();
+                }
             }
 
             if (inAir && feet.grounded)
@@ -161,6 +182,10 @@ public class control : MonoBehaviour
 
         if (moving && (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))){
                 moving = false;
+            if (walkingSound.isPlaying)
+            {
+                walkingSound.Stop();
+            }
             }
 
 
@@ -273,10 +298,12 @@ public class control : MonoBehaviour
             if (colored)
             {
                 movingSpd = 2;
+                walkingSound.pitch = 0.7f;
             }
             else
             {
                 movingSpd = 5;
+                walkingSound.pitch = 1;
             }
             if (!freeze)
             {
@@ -285,20 +312,30 @@ public class control : MonoBehaviour
                     transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
                     moving = true;
                     movingRight = false;
-                    walkingSound.Play();
+                    if (!walkingSound.isPlaying)
+                    {
+                        walkingSound.Play();
+                    }
                 }
                 else if (Input.GetKey(KeyCode.D))
                 {
                     transform.Translate(movingSpd * Time.deltaTime, 0, 0);
                     moving = true;
                     movingRight = true;
-                    walkingSound.Play();
+                    if (!walkingSound.isPlaying)
+                    {
+                        walkingSound.Play();
+                    }
                 }
             }
 
         }
         else
         {
+            if (walkingSound.isPlaying)
+            {
+                walkingSound.Stop();
+            }
             colored = false;
             moving = false;
             //death animation
@@ -330,8 +367,12 @@ public class control : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("color"))
             {
-                playerDie.Play();
+                if (!manager.dead)
+                {
+                    playerDie.Play();
+                }
                 allColored = true;
+                manager.dead = true;
                 firstDie = true;
 
             }

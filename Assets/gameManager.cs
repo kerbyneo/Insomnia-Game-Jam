@@ -30,6 +30,9 @@ public class gameManager : MonoBehaviour
     public GameObject bossG;
     public bool mute = false;
     public AudioSource ambience;
+    public Sprite newRoom;
+    public bool dead;
+    public bossBehavior bosscr;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,161 +41,175 @@ public class gameManager : MonoBehaviour
         recall.color = new Color(1, 1, 1, recallA);
         handk.color = new Color(1, 1, 1, handkA);
         ui.color = new Color(1, 1, 1, uiA);
-       
+        bosscr = bossG.GetComponent<bossBehavior>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        if (player.allColored)
+        if (!bosscr.defeated)
         {
-            if (!pause)
+            if (player.allColored)
             {
-                startCounter = 0;
+                if (!pause)
+                {
+                    startCounter = 0;
+                }
+                getToPause += 1;
+                if (getToPause > 200)
+                {
+                    pause = true;
+
+                    player.allColored = false;
+                }
             }
-            getToPause += 1;
-            if (getToPause > 200)
+
+            if (first)
             {
-                pause = true;
-
-                player.allColored = false;
-            }
-        }
-
-        if (first)
-        {
-            duration = 800;
-        }
-        else
-        {
-            duration = 200;
-        }
-
-        if (pause)
-        {
-            
-            fadeCounter += 1;
-            if(fadeCounter > duration)
-            {
-                getToPause = 0;
-                startCounter += 1;
+                duration = 800;
             }
             else
             {
-                startCounter = 0;
-                if (roomA < 1)
+                duration = 200;
+            }
+
+            if (pause)
+            {
+
+                fadeCounter += 1;
+                if (fadeCounter > duration)
                 {
-                    mute = true;
-                    ambience.volume = 1;
-                    ambience.Play();
-                    roomA += 0.2f;
+                    getToPause = 0;
+                    startCounter += 1;
                 }
                 else
                 {
-                    player.freeze = true;
-
-                }
-                room.color = new Color(1, 1, 1, roomA);
-                if (first)
-                {
-                    if (fadeCounter > 250 && fadeCounter < 500)
+                    startCounter = 0;
+                    if (roomA < 1)
                     {
-                        if (recallA < 1)
+                        mute = true;
+                        ambience.volume = 1;
+                        ambience.Play();
+                        roomA += 0.2f;
+                    }
+                    else
+                    {
+                        player.freeze = true;
+                        dead = true;
+                    }
+                    room.color = new Color(1, 1, 1, roomA);
+                    if (first)
+                    {
+                        if (fadeCounter > 250 && fadeCounter < 500)
                         {
-                            recallA += 0.05f;
-                            recall.color = new Color(1, 1, 1, recallA);
-                        }
-                        else
-                        {
-                            if (handkA < 1)
+                            if (recallA < 1)
                             {
-                                handkA += 0.08f;
-                                handk.color = new Color(1, 1, 1, handkA);
-                                uiA += 0.08f;
-                                ui.color = new Color(1, 1, 1, uiA);
+                                recallA += 0.05f;
+                                recall.color = new Color(1, 1, 1, recallA);
                             }
                             else
                             {
-                                handkCounter += 1;
-                                if (handkCounter > 30)
+                                if (handkA < 1)
                                 {
-                                    Vector3 targetPosition = uiT.position;
-                                    Vector3 smoothedPosition = Vector3.Lerp(handkT.position, targetPosition, 1.5f * Time.deltaTime);
-                                    handkT.position = smoothedPosition;
+                                    handkA += 0.08f;
+                                    handk.color = new Color(1, 1, 1, handkA);
+                                    uiA += 0.08f;
+                                    ui.color = new Color(1, 1, 1, uiA);
+                                }
+                                else
+                                {
+                                    handkCounter += 1;
+                                    if (handkCounter > 30)
+                                    {
+                                        Vector3 targetPosition = uiT.position;
+                                        Vector3 smoothedPosition = Vector3.Lerp(handkT.position, targetPosition, 1.5f * Time.deltaTime);
+                                        handkT.position = smoothedPosition;
+                                    }
                                 }
                             }
                         }
-                    }else if (fadeCounter > 500 && fadeCounter < 600)
-                    {
-                        if (recallA > 0)
+                        else if (fadeCounter > 500 && fadeCounter < 600)
                         {
-                            recallA -= 0.05f;
-                            recall.color = new Color(1, 1, 1, recallA);
+                            if (recallA > 0)
+                            {
+                                recallA -= 0.05f;
+                                recall.color = new Color(1, 1, 1, recallA);
+                            }
                         }
-                    }else if (fadeCounter > 600)
-                    {
-                        first = false;
-                        handkScr.availale = true;
+                        else if (fadeCounter > 600)
+                        {
+                            first = false;
+                            handkScr.availale = true;
+                        }
                     }
                 }
             }
-        }
-        if (fa.next)
-        {
-            if (!player.firstDie)
+            if (fa.next)
             {
-                startCounter += 1;
-            }
-
-        }
-        else
-        {
-        }
-
-        if (startCounter > 50)
-        {
-            if (roomA > 0)
-            {
-                roomA -= 0.02f;
-                StartCoroutine(Fadeout.startFade(ambience, 2, 0));
-                mute = false;
-            }
-            player.freeze = false;
-            room.color = new Color(1, 1, 1, roomA);
-            if (startCounter > 51 && startCounter < 53)
-            {
-                playerG.transform.position = player.checkpoint.position;
-                bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
-                bosscr.move = false;
-                player.colored = false;
-                player.allColored = false;
-                player.notColorAgain = false;
-                
+                if (!player.firstDie)
+                {
+                    startCounter += 1;
+                }
 
             }
-        }
-        else
-        {
-            
-        }
-
-
-        if (startCounter > 100)
-        {
-           
-            getToPause = 0;
-            player.allColored = false;
-            if (startCounter > 101 && startCounter < 103)
+            else
             {
-                
-                         
-                pauseCounter = 0;
-                fadeCounter = 0;
+            }
+
+            if (startCounter > 50)
+            {
+                if (roomA > 0)
+                {
+                    roomA -= 0.02f;
+                    StartCoroutine(Fadeout.startFade(ambience, 2, 0));
+                    mute = false;
+                }
+                else
+                {
+                    room.sprite = newRoom;
+                    dead = false;
+                }
+                player.freeze = false;
+                room.color = new Color(1, 1, 1, roomA);
+                if (startCounter > 51 && startCounter < 53)
+                {
+                    playerG.transform.position = player.checkpoint.position;
+                    bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
+                    bosscr.move = false;
+                    player.colored = false;
+                    player.allColored = false;
+                    player.notColorAgain = false;
+
+
+                }
+            }
+            else
+            {
+
+            }
+
+
+            if (startCounter > 100)
+            {
+
                 getToPause = 0;
-                roomA = 0;
-                fadeCounter = 0;
-                pause = false;
+                player.allColored = false;
+                if (startCounter > 101 && startCounter < 103)
+                {
+
+
+                    pauseCounter = 0;
+                    fadeCounter = 0;
+                    getToPause = 0;
+                    roomA = 0;
+                    fadeCounter = 0;
+                    pause = false;
+                    if (first == false)
+                    {
+                        room.sortingOrder = 500;
+                    }
+
+                }
             }
         }
 
