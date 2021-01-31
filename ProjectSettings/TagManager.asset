@@ -9,6 +9,7 @@ TagManager:
   - check
   - area
   - boss
+  - wall
   layers:
   - Default
   - TransparentFX
