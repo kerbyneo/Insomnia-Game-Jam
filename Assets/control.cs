@@ -40,6 +40,7 @@ public class control : MonoBehaviour
     void Start()
     {
         nowPlaying = blue;
+        nowPlaying.Stop();
         bosscr = bossG.GetComponent<bossBehavior>();
     }
 
