@@ -25,6 +25,8 @@ public class bossBehavior : MonoBehaviour
     public SpriteRenderer sr;
     public float a = 0;
     public bool move = true;
+    public bool erased = false;
+    public bool defeated = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -62,110 +64,122 @@ public class bossBehavior : MonoBehaviour
     {
         if (move)
         {
-            sr.enabled = true;
-            counter += 1;
-            if (invincible)
+            if (!erased)
             {
-                anim.SetBool("fade", false);
-                anim.SetBool("fill", false);
-                if (counter < 1000)
+                sr.enabled = true;
+                counter += 1;
+                if (invincible)
                 {
-                    launchCounter += 1;
-                    if (launchCounter > 150)
+                    anim.SetBool("fade", false);
+                    anim.SetBool("fill", false);
+                    if (counter < 1000)
                     {
-                        float rand = Random.Range(0, 20);
-                        if (rand < 10)
+                        launchCounter += 1;
+                        if (launchCounter > 150)
                         {
-                            markerBurst = true;
-                        }
-                        else
-                        {
-                            markerRain = true;
-                        }
-                    }
-                    if (markerBurst)
-                    {
-                        skillCounter += 1;
-                        if (skillCounter > 15 && skillCounter < 17)
-                        {
-                            for (int i = 0; i < 12; i++)
+                            float rand = Random.Range(0, 20);
+                            if (rand < 10)
                             {
-
-                                float radians = (Mathf.PI / 180) * markerBurstAngle;
-                                float thisX = 1 * Mathf.Sin(radians);
-                                float thisY = 1 * Mathf.Cos(radians);
-                                float newX = transform.position.x + thisX;
-                                float newY = transform.position.y + thisY;
-                                GameObject newMarker = Instantiate(marker, new Vector3(newX, newY, 0), Quaternion.Euler(0, 0, -markerBurstAngle + 90));
-                                marker ifBurst = newMarker.GetComponent<marker>();
-                                ifBurst.burstRotation = -markerBurstAngle + 90;
-                                ifBurst.burst = true;
-
-                                markerBurstAngle += 30;
-                            }
-                        }
-                        else if (skillCounter > 200)
-                        {
-                            markerBurst = false;
-                            skillCounter = 0;
-                            markerBurstAngle = 0;
-                            launchCounter = 0;
-                        }
-                    }
-                    else if (markerRain)
-                    {
-                        skillCounter += 1;
-                        if (skillCounter > 5 && xPos < right.position.x)
-                        {
-                            if (goDown)
-                            {
-                                GameObject thisMarker = Instantiate(marker, new Vector3(xPos, top.position.y, 0), Quaternion.Euler(0, 0, 0));
-                                marker mScr = thisMarker.GetComponent<marker>();
-                                mScr.burst = false;
-                                mScr.rotate = -90;
-                                goDown = false;
+                                markerBurst = true;
                             }
                             else
                             {
-                                GameObject thisMarker = Instantiate(marker, new Vector3(xPos, bottom.position.y, 0), Quaternion.Euler(0, 0, 0));
-                                marker mScr = thisMarker.GetComponent<marker>();
-                                mScr.burst = false;
-                                mScr.rotate = 90;
-                                goDown = true;
+                                markerRain = true;
                             }
-                            xPos += 1.5f;
-                            skillCounter = 0;
                         }
-                        else if (skillCounter > 200)
+                        if (markerBurst)
                         {
-                            skillCounter = 0;
-                            markerRain = false;
-                            launchCounter = 0;
-                            xPos = left.position.x;
+                            skillCounter += 1;
+                            if (skillCounter > 15 && skillCounter < 17)
+                            {
+                                for (int i = 0; i < 12; i++)
+                                {
+
+                                    float radians = (Mathf.PI / 180) * markerBurstAngle;
+                                    float thisX = 1 * Mathf.Sin(radians);
+                                    float thisY = 1 * Mathf.Cos(radians);
+                                    float newX = transform.position.x + thisX;
+                                    float newY = transform.position.y + thisY;
+                                    GameObject newMarker = Instantiate(marker, new Vector3(newX, newY, 0), Quaternion.Euler(0, 0, -markerBurstAngle + 90));
+                                    marker ifBurst = newMarker.GetComponent<marker>();
+                                    ifBurst.burstRotation = -markerBurstAngle + 90;
+                                    ifBurst.burst = true;
+
+                                    markerBurstAngle += 30;
+                                }
+                            }
+                            else if (skillCounter > 200)
+                            {
+                                markerBurst = false;
+                                skillCounter = 0;
+                                markerBurstAngle = 0;
+                                launchCounter = 0;
+                            }
                         }
+                        else if (markerRain)
+                        {
+                            skillCounter += 1;
+                            if (skillCounter > 5 && xPos < right.position.x)
+                            {
+                                if (goDown)
+                                {
+                                    GameObject thisMarker = Instantiate(marker, new Vector3(xPos, top.position.y, 0), Quaternion.Euler(0, 0, 0));
+                                    marker mScr = thisMarker.GetComponent<marker>();
+                                    mScr.burst = false;
+                                    mScr.rotate = -90;
+                                    goDown = false;
+                                }
+                                else
+                                {
+                                    GameObject thisMarker = Instantiate(marker, new Vector3(xPos, bottom.position.y, 0), Quaternion.Euler(0, 0, 0));
+                                    marker mScr = thisMarker.GetComponent<marker>();
+                                    mScr.burst = false;
+                                    mScr.rotate = 90;
+                                    goDown = true;
+                                }
+                                xPos += 1.5f;
+                                skillCounter = 0;
+                            }
+                            else if (skillCounter > 200)
+                            {
+                                skillCounter = 0;
+                                markerRain = false;
+                                launchCounter = 0;
+                                xPos = left.position.x;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        counter = 0;
+                        invincible = false;
                     }
                 }
                 else
                 {
-                    counter = 0;
-                    invincible = false;
+                    markerBurst = false;
+                    markerRain = false;
+                    if (counter < 200)
+                    {
+                        anim.SetBool("fade", true);
+                        anim.SetBool("fill", false);
+                    }
+                    else
+                    {
+                        counter = 0;
+                        invincible = true;
+                        anim.SetBool("fill", true);
+                        anim.SetBool("fade", false);
+                    }
                 }
             }
             else
             {
-                markerBurst = false;
-                markerRain = false;
-                if (counter < 200)
+                anim.SetBool("death", true);
+                if (this.anim.GetCurrentAnimatorStateInfo(0).IsName("none"))
                 {
-                    anim.SetBool("fade", true);
-                    anim.SetBool("fill", false);
-                }
-                else
-                {
-                    counter = 0;
-                    invincible = true;
-                    anim.SetBool("fill", true);
-                    anim.SetBool("fade", false);
+                    sr.enabled = false;
+                    defeated = true;
                 }
             }
         }

@@ -34,15 +34,23 @@ public class control : MonoBehaviour
     public GameObject bossG;
     public AudioSource ambience;
     public gameManager manager;
+    public bossBehavior bosscr;
+    public int defeatCounter = 0;
     // Start is called before the first frame update
     void Start()
     {
         nowPlaying = blue;
+        bosscr = bossG.GetComponent<bossBehavior>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (bosscr.defeated)
+        {
+            defeatCounter += 1;
+            StartCoroutine(Fadeout.startFade(nowPlaying, 2, 0));
+        }
 
         if (nowPlaying == blue)
         {
