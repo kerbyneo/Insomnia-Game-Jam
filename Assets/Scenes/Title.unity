@@ -1202,12 +1202,11 @@ MonoBehaviour:
     Sound and Music: Ziwen Zhang
 
     Level Design: Yibing Chen
-    & Hongke Luo
 
-    Development: Yibing Chen & Hongke Luo
+    Development:
+    Yibing Chen & Hongke Luo
 
-    Director: Hongke
-    Luo'
+    Director: Hongke Luo'
 --- !u!222 &1665480239
 CanvasRenderer:
   m_ObjectHideFlags: 0
