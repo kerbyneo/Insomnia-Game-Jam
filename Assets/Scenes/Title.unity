@@ -1189,12 +1189,12 @@ MonoBehaviour:
 
 
 
-    Script writing: Shijie Xing
+    Script Writing: Shijie Xing
 
     Comceptual
-    arit & illustration: Mingxuan Cao
+    arit & Illustration: Mingxuan Cao
 
-    Sprite animation: Anzhi Li
+    Sprite Animations: Anzhi Li
 
     Enviornmental
     Arts: Kerby Neo
@@ -1202,11 +1202,12 @@ MonoBehaviour:
     Sound and Music: Ziwen Zhang
 
     Level Design: Yibing Chen
+    & Hongke Luo
 
-    Development:
-    Yibing Chen & Hongke Luo
+    Development: Yibing Chen & Hongke Luo
 
-    Director: Hongke Luo'
+    Director: Hongke
+    Luo'
 --- !u!222 &1665480239
 CanvasRenderer:
   m_ObjectHideFlags: 0
