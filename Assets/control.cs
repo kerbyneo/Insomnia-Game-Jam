@@ -124,46 +124,47 @@ public class control : MonoBehaviour
     void FixedUpdate()
     {
         //jump
-
-        if (jumping)
+        if (!colored)
         {
-            thisRigidbody.gravityScale = jumpGravity;
-
-            //jumping animation
-            anim.SetBool("jumping", true);
-            jumpcounter += 1;
-
-            int minusIdx = 100;
-            if (jumpcounter > 8)
+            if (jumping)
             {
-                minusIdx = 110;
+                thisRigidbody.gravityScale = jumpGravity;
+
+                //jumping animation
+                anim.SetBool("jumping", true);
+                jumpcounter += 1;
+
+                int minusIdx = 100;
+                if (jumpcounter > 8)
+                {
+                    minusIdx = 110;
+                }
+
+
+                minusIdx = 80;
+                if ((500 - jumpcounter * minusIdx) * Time.deltaTime >= 0)
+                {
+                    thisRigidbody.AddForce(Vector2.up * (500 - jumpcounter * minusIdx) * Time.deltaTime, ForceMode2D.Impulse);
+                }
+
+
+
+                if (thisRigidbody.velocity.y > 40)
+                {
+                    thisRigidbody.velocity = new Vector2(0, 40);
+                }
+
+
             }
-
-
-            minusIdx = 80;
-            if ((500 - jumpcounter * minusIdx)*Time.deltaTime >= 0)
+            else
             {
-                thisRigidbody.AddForce(Vector2.up * (500 - jumpcounter * minusIdx) * Time.deltaTime, ForceMode2D.Impulse);
+                thisRigidbody.gravityScale = fallGravity;
+                //falling animation
+                anim.SetBool("jumping", false);
+                transform.Translate(0, 0, 0);
+                jumpcounter = 0;
             }
-
-
-
-            if (thisRigidbody.velocity.y > 40)
-            {
-                thisRigidbody.velocity = new Vector2(0, 40);
-            }
-            
-
         }
-        else
-        {
-            thisRigidbody.gravityScale = fallGravity;
-            //falling animation
-            anim.SetBool("jumping", false);
-            transform.Translate(0, 0, 0);
-            jumpcounter = 0;
-        }
-
         //moving
         if (!allColored)
         {
