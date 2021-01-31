@@ -27,17 +27,24 @@ public class gameManager : MonoBehaviour
     public int handkCounter = 0;
     public handkClick handkScr;
     public faScr fa;
+    public GameObject bossG;
+    public bool mute = false;
+    public AudioSource ambience;
     // Start is called before the first frame update
     void Start()
     {
+        
+        ambience.volume = 0;
         recall.color = new Color(1, 1, 1, recallA);
         handk.color = new Color(1, 1, 1, handkA);
         ui.color = new Color(1, 1, 1, uiA);
+       
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
         if (player.allColored)
         {
             if (!pause)
@@ -76,11 +83,15 @@ public class gameManager : MonoBehaviour
                 startCounter = 0;
                 if (roomA < 1)
                 {
+                    mute = true;
+                    ambience.volume = 1;
+                    ambience.Play();
                     roomA += 0.2f;
                 }
                 else
                 {
                     player.freeze = true;
+
                 }
                 room.color = new Color(1, 1, 1, roomA);
                 if (first)
@@ -144,19 +155,26 @@ public class gameManager : MonoBehaviour
             if (roomA > 0)
             {
                 roomA -= 0.02f;
+                StartCoroutine(Fadeout.startFade(ambience, 2, 0));
+                mute = false;
             }
             player.freeze = false;
             room.color = new Color(1, 1, 1, roomA);
             if (startCounter > 51 && startCounter < 53)
             {
                 playerG.transform.position = player.checkpoint.position;
-                
+                bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
+                bosscr.move = false;
                 player.colored = false;
                 player.allColored = false;
                 player.notColorAgain = false;
                 
 
             }
+        }
+        else
+        {
+            
         }
 
 
@@ -167,6 +185,8 @@ public class gameManager : MonoBehaviour
             player.allColored = false;
             if (startCounter > 101 && startCounter < 103)
             {
+                
+                         
                 pauseCounter = 0;
                 fadeCounter = 0;
                 getToPause = 0;
@@ -177,6 +197,24 @@ public class gameManager : MonoBehaviour
         }
 
     }
+
+
+    public static class Fadeout
+    {
+        public static IEnumerator startFade(AudioSource bgm, float duration, float targetVolume)
+        {
+            float currentTime = 0;
+            float start = bgm.volume;
+            while (currentTime < duration)
+            {
+                currentTime += Time.deltaTime;
+                bgm.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+                yield return null;
+            }
+            yield break;
+        }
+    }
+
 
     IEnumerator FadeToBed()
     {

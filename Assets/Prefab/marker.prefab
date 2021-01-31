@@ -101,6 +101,7 @@ MonoBehaviour:
   burstRotation: 0
   spr: {fileID: 0}
   a: 0
+  rotate: 90
 --- !u!61 &7957609848818988345
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111,7 +112,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.22234964, y: -0.024709344}

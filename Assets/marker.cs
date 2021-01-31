@@ -36,7 +36,7 @@ public class marker : MonoBehaviour
             if (burstCounter > 40)
             {
 
-                transform.position += transform.right * 0.1f;
+                transform.position += transform.right * 0.3f;
                 transform.rotation = Quaternion.Euler(0, 0, burstRotation);
                 burstRotation -= 0.4f;
             }

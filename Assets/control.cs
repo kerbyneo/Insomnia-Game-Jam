@@ -13,8 +13,6 @@ public class control : MonoBehaviour
     public int jumpcounter = 0;
     public float jumpHeight = 5f;
     public bool jumped;
-    private float jumpGravity = 4;
-    private float fallGravity = 5f;
     public bool releasedJump = true;
     public bool notColorAgain = false;
     public bool allColored = false;
@@ -27,18 +25,73 @@ public class control : MonoBehaviour
     public Animator anim;
     public bool freeze;
     public bool inAir = false;
+    public AudioSource nowPlaying;
+    public AudioSource blue;
+    public AudioSource red;
+    public AudioSource boss;
+    public bool fadeOut;
+    public int fadeCounter = 0;
+    public GameObject bossG;
+    public AudioSource ambience;
+    public gameManager manager;
     // Start is called before the first frame update
     void Start()
     {
-       
+        nowPlaying = blue;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (nowPlaying == blue)
+        {
+            red.Stop();
+            boss.Stop();
+        }else if (nowPlaying == red)
+        {
+            blue.Stop();
+            boss.Stop();
+        }else if (nowPlaying == boss)
+        {
+            red.Stop();
+            blue.Stop();
+        }
+
+        if (manager.mute)
+        {
+            StartCoroutine(Fadeout.startFade(nowPlaying, 2, 0));
+            if (nowPlaying.volume == 0)
+            {
+                nowPlaying.Stop();
+            }
+        }
+        else
+        {
+            nowPlaying.volume = 1;
+            if (!nowPlaying.isPlaying)
+            {
+                nowPlaying.Play();
+            }
+
+        }
+
         if (!stillIn && colored)
         {
             notColorAgain = true;
+        }
+
+        
+
+
+        if (fadeOut)
+        {
+            StartCoroutine(Fadeout.startFade(nowPlaying, 2, 0));
+            fadeCounter += 1;
+            if (fadeCounter > 5)
+            {
+                fadeOut = false;
+            }
         }
 
         /*
@@ -267,7 +320,31 @@ public class control : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "area1")
+        {
+            nowPlaying = blue;
+            nowPlaying.volume = 1;
+            fadeOut = false;
+        }
+        if (collision.gameObject.name == "area2")
+        {
+            nowPlaying = red;
+            nowPlaying.volume = 1;
+            fadeOut = false;
+        }
+        if (collision.gameObject.name == "area3")
+        {
+            nowPlaying = boss;
+            fadeOut = false;
+            nowPlaying.volume = 1;
+            bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
+            bosscr.move = true;
+            bossG.SetActive(true);
+        }
 
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -277,6 +354,28 @@ public class control : MonoBehaviour
             stillIn = false;
 
         }
+        if (collision.gameObject.CompareTag("area"))
+        {
+            fadeOut = true;
+        }
     }
+
+
+    public static class Fadeout
+    {
+        public static IEnumerator startFade(AudioSource bgm, float duration, float targetVolume)
+        {
+            float currentTime = 0;
+            float start = bgm.volume;
+            while (currentTime < duration)
+            {
+                currentTime += Time.deltaTime;
+                bgm.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+                yield return null;
+            }
+            yield break;
+        }
+    }
+
 
 }

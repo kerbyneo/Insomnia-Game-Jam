@@ -44,23 +44,26 @@ public class bulletScr : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (bossUse)
+        if (counter < 100)
         {
-            if (!rotated)
+            if (bossUse)
             {
-                transform.rotation = Quaternion.Euler(0, 0, rotate);
-                rotated = true;
+                if (!rotated)
+                {
+                    transform.rotation = Quaternion.Euler(0, 0, rotate);
+                    rotated = true;
+                }
+                if (a < 1)
+                {
+                    a += 0.05f;
+                    sr.color = new Color(r, g, b, a);
+                }
             }
-            if (a < 1)
+            else
             {
-                a += 0.05f;
+                a = 1;
                 sr.color = new Color(r, g, b, a);
             }
-        }
-        else
-        {
-            a = 1;
-            sr.color = new Color(r, g, b, a);
         }
         if (right)
         {
@@ -71,7 +74,15 @@ public class bulletScr : MonoBehaviour
             transform.position -= transform.right * 0.2f;
         }
         counter += 1;
-        if (counter > 500)
+        if (counter > 100)
+        {
+            if (a > 0)
+            {
+                a -= 0.1f;
+                sr.color = new Color(r, g, b, a);
+            }
+        }
+        if (counter > 200)
         {
             Destroy(gameObject);
         }
