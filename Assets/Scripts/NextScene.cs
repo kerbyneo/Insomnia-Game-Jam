@@ -10,5 +10,6 @@ public class NextScene : MonoBehaviour
 
     public void Next(){
         SceneManager.LoadScene(sceneToLoad);
+        Debug.Log("next");
     }
 }

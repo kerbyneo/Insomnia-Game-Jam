@@ -14,6 +14,7 @@ public class ED : MonoBehaviour
     
     public GameObject nextButton;
     public GameObject prevButton;
+    public GameObject endCredit;
     public AudioSource flipPage;
 
     public bool nextImage = false;
@@ -41,10 +42,12 @@ public class ED : MonoBehaviour
             prevButton.SetActive(true);
         }
 
-        if(i < 6){
+        if(i < 7){
             nextButton.SetActive(true);
+            endCredit.SetActive(false);
         } else {
             nextButton.SetActive(false);
+            endCredit.SetActive(true);
         }
         
     }

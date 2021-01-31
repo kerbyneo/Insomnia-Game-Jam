@@ -18,7 +18,9 @@ public class OP : MonoBehaviour
     public GameObject prevButton;
     public AudioSource flipPage;
 
+
     public bool nextImage = false;
+
  
     public void BtnNext () {
         if(i + 1 < gallery.Length){
