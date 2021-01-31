@@ -18,6 +18,8 @@ public class handkClick : MonoBehaviour
     public int counter = 0;
     public bool letGo = false;
     public bool spr2 = false;
+    public bossBehavior boss;
+    public bool cleanBoss = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +49,7 @@ public class handkClick : MonoBehaviour
 
 
 
-            if (!player.stillIn && player.colored && letGo)
+            if ((!player.stillIn && player.colored && letGo)|| !boss.invincible)
             {
                 uiS.sprite = uiS2;
                 spr2 = true;
@@ -60,7 +62,7 @@ public class handkClick : MonoBehaviour
 
             if (follow)
             {
-                if (spr2)
+                if (spr2 || !boss.invincible)
                 {
                     left.SetActive(true);
                 }
@@ -84,6 +86,18 @@ public class handkClick : MonoBehaviour
                         }
                     }
                 }
+
+                if (cleanBoss && !boss.invincible)
+                {
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        boss.erased = true;
+                        clean = false;
+                        follow = false;
+                    }
+                }
+
+
             }
             else
             {
@@ -112,6 +126,18 @@ public class handkClick : MonoBehaviour
         {
             clean = true;
         }
+        if (collision.gameObject.CompareTag("boss"))
+        {
+            cleanBoss = true;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("boss"))
+        {
+            cleanBoss = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -119,6 +145,10 @@ public class handkClick : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             clean = false;
+        }
+        if (collision.gameObject.CompareTag("boss"))
+        {
+            cleanBoss = false;
         }
     }
 
