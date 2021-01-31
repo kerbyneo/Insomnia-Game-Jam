@@ -33,6 +33,10 @@ public class control : MonoBehaviour
     public int fadeCounter = 0;
     public GameObject bossG;
     public AudioSource ambience;
+    public AudioSource stepColor;
+    public AudioSource playerDie;
+    public AudioSource jumpSound;
+    public AudioSource walkingSound;
     public gameManager manager;
     public bossBehavior bosscr;
     public int defeatCounter = 0;
@@ -139,6 +143,7 @@ public class control : MonoBehaviour
                 thisRigidbody.AddForce(Vector2.up * 16.5f, ForceMode2D.Impulse);
                 anim.SetBool("jumping", true);
                 jumping = true;
+                jumpSound.Play();
             }
 
             if (jumping && !feet.grounded)
@@ -280,12 +285,14 @@ public class control : MonoBehaviour
                     transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
                     moving = true;
                     movingRight = false;
+                    walkingSound.Play();
                 }
                 else if (Input.GetKey(KeyCode.D))
                 {
                     transform.Translate(movingSpd * Time.deltaTime, 0, 0);
                     moving = true;
                     movingRight = true;
+                    walkingSound.Play();
                 }
             }
 
@@ -310,6 +317,7 @@ public class control : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("color"))
             {
+                stepColor.Play();
                 colored = true;
                 stillIn = true;
             }
@@ -322,6 +330,7 @@ public class control : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("color"))
             {
+                playerDie.Play();
                 allColored = true;
                 firstDie = true;
 
@@ -361,6 +370,7 @@ public class control : MonoBehaviour
         {
             notColorAgain = true;
             stillIn = false;
+            
 
         }
         if (collision.gameObject.CompareTag("area"))

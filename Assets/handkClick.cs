@@ -20,6 +20,9 @@ public class handkClick : MonoBehaviour
     public bool spr2 = false;
     public bossBehavior boss;
     public bool cleanBoss = false;
+
+    public AudioSource cleanSound;
+    public AudioSource putBackHandK;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +74,7 @@ public class handkClick : MonoBehaviour
                 transform.position = new Vector3(mousePosition.x, mousePosition.y, -10);
                 if (Input.GetMouseButtonDown(1))
                 {
+                    putBackHandK.Play();
                     follow = false;
                 }
                 if (clean && !player.stillIn)
@@ -125,10 +129,12 @@ public class handkClick : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             clean = true;
+            cleanSound.Play();
         }
         if (collision.gameObject.CompareTag("boss"))
         {
             cleanBoss = true;
+            cleanSound.Play();
         }
     }
 
