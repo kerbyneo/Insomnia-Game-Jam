@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class control : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class control : MonoBehaviour
     public faScr fa;
     public SpriteRenderer room;
     public Sprite finalRoom;
+    public string sceneToLoad;
     public float a = 0;
     // Start is called before the first frame update
     void Start()
@@ -68,9 +70,9 @@ public class control : MonoBehaviour
                     room.color = new Color(1, 1, 1, a);
                 }
             }
-            if (defeatCounter > 1000)
+            if (defeatCounter > 2000)
             {
-
+                SceneManager.LoadScene(sceneToLoad);
             }
         }
 
