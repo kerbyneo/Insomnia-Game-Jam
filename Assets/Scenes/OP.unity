@@ -1454,4 +1454,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82fb931afd94bf644a8682f2b91d8580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Test
+  sceneToLoad: Main
