@@ -13,7 +13,7 @@ public class control : MonoBehaviour
     public int jumpcounter = 0;
     public float jumpHeight = 5f;
     public bool jumped;
-    private float jumpGravity = 7;
+    private float jumpGravity = 4;
     private float fallGravity = 5f;
     public bool releasedJump = true;
     public bool notColorAgain = false;
@@ -24,8 +24,9 @@ public class control : MonoBehaviour
     public Transform checkpoint;
     public bool firstDie = false;
     public bool stillIn = false;
-    public bool freeze = false;
     public Animator anim;
+    public bool freeze;
+    public bool inAir = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,9 +40,11 @@ public class control : MonoBehaviour
         {
             notColorAgain = true;
         }
+
+        /*
         if (!colored || !allColored)
         {
-            if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump && !freeze)
+            if (Input.GetKey(KeyCode.Space) && (feet.grounded) && releasedJump)
             {
                 jumping = true;
                 transform.Translate(0, 0, 0);
@@ -50,7 +53,7 @@ public class control : MonoBehaviour
 
             if (jumping)
             {
-                if (Input.GetKeyUp(KeyCode.Space) || jumpcounter > jumpHeight + 3)
+                if (Input.GetKeyUp(KeyCode.Space) )
                 {
                     thisRigidbody.gravityScale = fallGravity;
                     thisRigidbody.velocity = new Vector2(0, 0);
@@ -62,6 +65,30 @@ public class control : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 releasedJump = true;
+            }
+        }
+        */
+
+        if (!colored)
+        {
+
+            if (Input.GetKeyDown(KeyCode.Space) && feet.grounded)
+            {
+                thisRigidbody.AddForce(Vector2.up * 16.5f, ForceMode2D.Impulse);
+                anim.SetBool("jumping", true);
+                jumping = true;
+            }
+
+            if (jumping && !feet.grounded)
+            {
+                inAir = true;
+            }
+
+            if (inAir && feet.grounded)
+            {
+                jumping = false;
+                inAir = false;
+                anim.SetBool("jumping", false);
             }
         }
 
@@ -130,6 +157,7 @@ public class control : MonoBehaviour
         //jump
         if (!colored)
         {
+            /*
             if (jumping)
             {
                 thisRigidbody.gravityScale = jumpGravity;
@@ -169,29 +197,34 @@ public class control : MonoBehaviour
                 jumpcounter = 0;
             }
         }
+            */
+        }
         //moving
         if (!allColored)
         {
             anim.SetBool("die", false);
             if (colored)
             {
-                movingSpd = 1;
+                movingSpd = 2;
             }
             else
             {
                 movingSpd = 5;
             }
-            if (Input.GetKey(KeyCode.A)&&!freeze)
+            if (!freeze)
             {
-                transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
-                moving = true;
-                movingRight = false;
-            }
-            else if (Input.GetKey(KeyCode.D)&&!freeze)
-            {
-                transform.Translate(movingSpd * Time.deltaTime, 0, 0);
-                moving = true;
-                movingRight = true;
+                if (Input.GetKey(KeyCode.A))
+                {
+                    transform.Translate(-movingSpd * Time.deltaTime, 0, 0);
+                    moving = true;
+                    movingRight = false;
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    transform.Translate(movingSpd * Time.deltaTime, 0, 0);
+                    moving = true;
+                    movingRight = true;
+                }
             }
 
         }

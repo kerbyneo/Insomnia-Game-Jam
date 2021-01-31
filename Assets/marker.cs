@@ -9,6 +9,7 @@ public class marker : MonoBehaviour
     public float burstRotation = 0;
     public SpriteRenderer spr;
     public float a = 0;
+    public float rotate = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,21 @@ public class marker : MonoBehaviour
                 burstRotation -= 0.4f;
             }
             if (burstCounter > 200)
+            {
+                Destroy(gameObject);
+            }
+        }
+        else
+        {
+            burstCounter += 1;
+            if (burstCounter > 40)
+            {
+
+                transform.position += transform.right * 0.5f;
+                transform.rotation = Quaternion.Euler(0, 0, rotate);
+                burstRotation -= 0.4f;
+            }
+            if (burstCounter > 100)
             {
                 Destroy(gameObject);
             }
