@@ -3366,7 +3366,7 @@ PrefabInstance:
     - target: {fileID: 6274547670904121645, guid: 61b5c4cfcf616624e838130173926bd6, type: 3}
       propertyPath: hitWall
       value: 
-      objectReference: {fileID: 1309559229}
+      objectReference: {fileID: 0}
     - target: {fileID: 6274547670904121646, guid: 61b5c4cfcf616624e838130173926bd6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5936,7 +5936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609786286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 1.78, z: -363.09323}
+  m_LocalPosition: {x: 10.8, y: 1.78, z: -363.09323}
   m_LocalScale: {x: 2.6938283, y: 2.0884926, z: 2.9783132}
   m_Children: []
   m_Father: {fileID: 875355871}
@@ -23091,7 +23091,7 @@ PrefabInstance:
     - target: {fileID: 6274547670904121645, guid: 61b5c4cfcf616624e838130173926bd6, type: 3}
       propertyPath: hitWall
       value: 
-      objectReference: {fileID: 1309559229}
+      objectReference: {fileID: 0}
     - target: {fileID: 6274547670904121646, guid: 61b5c4cfcf616624e838130173926bd6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -23415,7 +23415,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1953544530}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1625521640
 AudioSource:
@@ -24366,7 +24366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1953544530}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1704004765
 GameObject:
@@ -26029,11 +26029,9 @@ Transform:
   - {fileID: 878876966}
   - {fileID: 1452515078}
   - {fileID: 224176676}
-  - {fileID: 1309559228}
   - {fileID: 2111480140}
   - {fileID: 1695507030}
   - {fileID: 1625521639}
-  - {fileID: 612757229}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27014,7 +27012,7 @@ MonoBehaviour:
   boss: {fileID: 1460276597}
   cleanBoss: 0
   cleanSound: {fileID: 1695507029}
-  putBackHandK: {fileID: 612757228}
+  putBackHandK: {fileID: 0}
 --- !u!61 &2045256561
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27227,7 +27225,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1953544530}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2111480141
 AudioSource:
