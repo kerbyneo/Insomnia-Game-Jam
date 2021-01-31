@@ -20,7 +20,7 @@ public class shoot : MonoBehaviour
         counter += 1;
         if (counter > speed)
         {
-            GameObject newBullet = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.Euler(0, 0, 0));
+            GameObject newBullet = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z), Quaternion.Euler(0, 0, 0));
             bulletScr scr = newBullet.GetComponent<bulletScr>();
             if (right)
             {

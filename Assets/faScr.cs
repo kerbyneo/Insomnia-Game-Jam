@@ -7,6 +7,7 @@ public class faScr : MonoBehaviour
     public bool over = false;
     public SpriteRenderer sr;
     public bool next = false;
+    public AudioSource blue;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,11 @@ public class faScr : MonoBehaviour
         else
         {
             sr.color = new Color(0, 0, 0);
+        }
+        if (!next)
+        {
+
+                blue.Stop();
         }
     }
 
