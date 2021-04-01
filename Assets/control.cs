@@ -46,7 +46,6 @@ public class control : MonoBehaviour
     public Sprite finalRoom;
     public string sceneToLoad;
     public float a = 0;
-    public falling fall2;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +62,7 @@ public class control : MonoBehaviour
             room.sprite = finalRoom;
             defeatCounter += 1;
             StartCoroutine(Fadeout.startFade(nowPlaying, 2, 0));
-            if (defeatCounter > 500)
+            if (defeatCounter > 200)
             {
                 if (a < 1)
                 {
@@ -71,7 +70,7 @@ public class control : MonoBehaviour
                     room.color = new Color(1, 1, 1, a);
                 }
             }
-            if (defeatCounter > 2000)
+            if (defeatCounter > 500)
             {
                 SceneManager.LoadScene(sceneToLoad);
             }
@@ -404,7 +403,6 @@ public class control : MonoBehaviour
             bossBehavior bosscr = bossG.GetComponent<bossBehavior>();
             bosscr.move = true;
             bossG.SetActive(true);
-            fall2.fall = true;
         }
 
     }

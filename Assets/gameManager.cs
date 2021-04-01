@@ -33,7 +33,6 @@ public class gameManager : MonoBehaviour
     public Sprite newRoom;
     public bool dead;
     public bossBehavior bosscr;
-    public falling fall2;
     // Start is called before the first frame update
     void Start()
     {
@@ -97,7 +96,6 @@ public class gameManager : MonoBehaviour
                     {
                         player.freeze = true;
                         dead = true;
-                        fall2.fall = false;
                     }
                     room.color = new Color(1, 1, 1, roomA);
                     if (first)
